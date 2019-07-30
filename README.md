@@ -2,6 +2,8 @@
 for the interwebs
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aebd0e1a-ad85-432a-bac5-04885e683ec2/deploy-status)](https://app.netlify.com/sites/unwaitlist/deploys)
+
 
 ### Project setup
 
