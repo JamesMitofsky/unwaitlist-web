@@ -1,5 +1,7 @@
 {
   "semi": false,
-  "arrowParens": "always",
-  "singleQuote": true
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "parser": "vue"
 }
