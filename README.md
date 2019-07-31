@@ -39,6 +39,7 @@ $ npm run generate
 * [Nuxt - Dev Tools > ESLint & Prettier](https://nuxtjs.org/guide/development-tools/#eslint-and-prettier)
 * [Nuxt - Assets / Images](https://nuxtjs.org/guide/assets/)
 * [Nuxt - Bind Image Source](https://github.com/nuxt/nuxt.js/issues/448#issuecomment-336592832)
+* [Nuxt - Link](https://nuxtjs.org/api/components-nuxt-link/)
 
 ### Vuetify
 
