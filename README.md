@@ -24,4 +24,5 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 ## Resources
 
+* [VS Code - Associate File Type to Language](https://code.visualstudio.com/docs/languages/identifiers)
 * [VS Code - Recommended Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_recommended-extensions)
