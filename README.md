@@ -1,5 +1,7 @@
 # unwaitlist
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc7e67bc-25f8-489e-b04d-096a8421b181/deploy-status)](https://app.netlify.com/sites/unwaitlist-nuxt/deploys)
+
 > skip the line
 
 ## Build Setup
