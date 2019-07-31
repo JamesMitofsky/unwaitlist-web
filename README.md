@@ -22,3 +22,6 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Resources
+
+* [VS Code - Recommended Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_recommended-extensions)
