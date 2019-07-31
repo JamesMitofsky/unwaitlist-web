@@ -1,14 +1,9 @@
 <template>
   <v-layout>
     <v-flex class="text-center">
-      <img src="/v.png" alt="Vuetify.js" class="mb-5" />
-      <blockquote class="blockquote">
-        &#8220;First, solve the problem. Then, write the code.&#8221;
-        <footer>
-          <small>
-            <em>&mdash;John Johnson</em>
-          </small>
-        </footer>
+      <h3>Philosophy</h3>
+      <blockquote>
+        These are the shots are I like to see my players take
       </blockquote>
     </v-flex>
   </v-layout>
