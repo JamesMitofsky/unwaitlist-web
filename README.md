@@ -38,11 +38,15 @@ $ npm run generate
 
 * [Nuxt - Dev Tools > ESLint & Prettier](https://nuxtjs.org/guide/development-tools/#eslint-and-prettier)
 * [Nuxt - Assets / Images](https://nuxtjs.org/guide/assets/)
+* [Nuxt - Bind Image Source](https://github.com/nuxt/nuxt.js/issues/448#issuecomment-336592832)
+* [Nuxt - Link](https://nuxtjs.org/api/components-nuxt-link/)
 
 ### Vuetify
 
 * [Vuetify - Theme](https://vuetifyjs.com/en/customization/theme)
 * [Vuetify - Components > App Bars](https://vuetifyjs.com/en/components/app-bars)
+* [Vuetify - Components > Image](https://vuetifyjs.com/en/components/images#images)
+* [Vuetify - Spacing Utlity Classes (Margin / Padding)](https://vuetifyjs.com/en/styles/spacing)
 
 ### VS Code
 
