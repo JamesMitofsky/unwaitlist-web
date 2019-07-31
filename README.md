@@ -27,5 +27,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 * [Prettier - Configuration Schema](https://prettier.io/docs/en/configuration.html#configuration-schema)
 * [ES Lint - `--fix`](https://stackoverflow.com/q/54173375/1366033)
 * [ES Lint - `autoFixOnSave`](https://alligator.io/vuejs/eslint-vue-vetur/)
+* [ES Lint - Severity - Rule Setting](https://eslint.org/docs/4.0.0/user-guide/configuring#configuring-rules)
 * [VS Code - Associate File Type to Language](https://code.visualstudio.com/docs/languages/identifiers)
 * [VS Code - Recommended Extensions](https://code.visualstudio.com/docs/editor/extension-gallery#_recommended-extensions)
