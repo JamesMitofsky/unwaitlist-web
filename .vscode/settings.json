@@ -16,5 +16,13 @@
     ],
     "files.associations": {
         "*.prettierrc": "jsonc"
-    }
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/.prettierrc"
+            ],
+            "url": "http://json.schemastore.org/prettierrc"
+        }
+    ]
 }
