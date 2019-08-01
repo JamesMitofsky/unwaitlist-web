@@ -28,7 +28,7 @@
       </v-card>
 
       <!--Section: Join the Fam-->
-      <div class="content-block">
+      <div id="join-the-fam" class="content-block">
         <h2>Our Packages</h2>
         <v-card>
           <v-card-title>Star Student<span class="package-count">&nbsp;(1)</span></v-card-title>
