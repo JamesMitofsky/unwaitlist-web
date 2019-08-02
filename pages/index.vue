@@ -31,19 +31,7 @@
 </template>
 
 <style>
-/* page transitions */
 
-/* set animation speed */
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
-}
-/* set animations */
-.page-enter,
-.page-leave-to {
-  opacity: 0;
-  transform: translate(100%);
-}
 
 /* PHIL RELATED STYLES -------------------------------------------------- */
 
