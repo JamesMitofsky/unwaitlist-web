@@ -1,8 +1,30 @@
-/* begin my styles */
-.v-card {
-    margin: 10px 0;
-  }
+/* Global styles here */
 
-  .italics {
-    font-style: italic;
-  }
+
+
+
+.v-card {
+  margin: 10px 0;
+}
+
+.italics {
+  font-style: italic;
+}
+
+
+
+
+
+/* page transitions */
+
+/* set animation speed */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+/* set animations */
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translate(100%);
+}

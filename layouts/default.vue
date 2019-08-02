@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar id="philosophy" app>
+    <v-app-bar app>
       <v-img
         class="mx-2"
         :src="require('~/assets/number.png')"
@@ -16,10 +16,9 @@
       <v-spacer></v-spacer>
 
       <v-toolbar-items>
-        <!-- Linking grabbed from here (without state push to URL): https://stackoverflow.com/questions/54770883/how-to-navigate-to-different-section-in-the-same-page-using-vuetify -->
-        <v-btn text @click="$vuetify.goTo('#philosophy',options)">Our Phil</v-btn>
-        <v-btn text @click="$vuetify.goTo('#join-the-fam',options)">Join the fam</v-btn>
-        <v-btn text @click="$vuetify.goTo('#contact',options)">Contact</v-btn>
+        <v-btn text to="/">Our Phil</v-btn>
+        <v-btn text to="/packages">Join the fam</v-btn>
+        <v-btn text to="/contact">Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
 
@@ -44,6 +43,25 @@ export default {
 </script>
 
 <style>
+/* Global styles here */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Solved header problem here: https://css-tricks.com/hash-tag-links-padding/ */
+.content-block::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -60px; 
+  height: 60px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+
+
+
 .toolbar-title a {
   color: black;
   text-decoration: none;

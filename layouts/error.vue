@@ -9,7 +9,7 @@
       {{ otherError }}
     </h1>
 
-    <div>Yikes, that was embarassing. We're sorry.</div>
+    <div>Yikes, that was embarassing.</div>
     <br>
     <div>If we can help out, bop us on our <nuxt-link to="/contact">Contact</nuxt-link> page.</div>
 
