@@ -9,13 +9,13 @@
         contain
       ></v-img>
 
-      <v-toolbar-title class="my-toolbar-title ml-5">
+      <v-toolbar-title class="my-toolbar-title">
         <nuxt-link class="home-link" to="/">unwaitlist.io</nuxt-link>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-toolbar-items>
+      <v-toolbar-items class="my-toolbar-items">
         <v-btn text to="/">Our Phil</v-btn>
         <v-btn text to="/packages">Packages</v-btn>
         <v-btn text to="/contact">Contact</v-btn>
@@ -43,13 +43,21 @@ export default {
 </script>
 
 <style>
-
-
+/* set navbar color */
 .v-app-bar.nav-bar {
   background-color: rgb(152, 226, 222);
 }
 
-
+/* sets navbar text as dynamic when screen is small*/
+@media screen and (max-width: 600px) {
+  .my-toolbar-title {
+    font-size: 2.4vw;
+  }
+  .my-toolbar-items .v-btn {
+    font-size: 2.5vw;
+    padding: 0 8px !important;
+  }
+}
 
 /* unwaitlist header text */
 .my-toolbar-title a {
