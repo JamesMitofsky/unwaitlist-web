@@ -9,9 +9,7 @@
         </div>
         <p>
           Guaranteeing a spot during class sign-up is hard. Whether it's struggling to beat hoards of students at the crack of dawn or just realizing a little late which classes interest you,
-          <span
-            class="italics"
-          >unwaitlist</span> can help.
+          <span class="font-italic">unwaitlist</span> can help.
         </p>
 
         <v-card>

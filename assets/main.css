@@ -1,16 +1,7 @@
 /* Global styles here */
-
-
-
-
-.v-card {
-  margin: 10px 0;
+html {
+  scroll-behavior: smooth;
 }
-
-.italics {
-  font-style: italic;
-}
-
 
 
 

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <v-app-bar class="nav-bar" app>
       <v-img
         class="mx-2"
         :src="require('~/assets/number.png')"
@@ -17,7 +17,7 @@
 
       <v-toolbar-items>
         <v-btn text to="/">Our Phil</v-btn>
-        <v-btn text to="/packages">Join the fam</v-btn>
+        <v-btn text to="/packages">Packages</v-btn>
         <v-btn text to="/contact">Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -29,7 +29,7 @@
     </v-content>
 
     <v-footer dark>
-      <span>&copy; 2019</span>
+      <span>James Tedesco &copy; 2019</span>
     </v-footer>
   </v-app>
 </template>
@@ -43,25 +43,15 @@ export default {
 </script>
 
 <style>
-/* Global styles here */
-html {
-  scroll-behavior: smooth;
-}
 
 
-/* Solved header problem here: https://css-tricks.com/hash-tag-links-padding/ */
-.content-block::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -60px; 
-  height: 60px; 
-  visibility: hidden; 
-  pointer-events: none;
+.v-app-bar.nav-bar {
+  background-color: rgb(152, 226, 222);
 }
 
 
 
-
+/* unwaitlist header text */
 .toolbar-title a {
   color: black;
   text-decoration: none;

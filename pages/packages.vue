@@ -1,60 +1,57 @@
 <template>
   <v-layout justify-center align-center wrap>
     <v-flex xs12 sm10 md8 xl7>
-
       <!--Section: Join the Fam-->
       <div id="join-the-fam" class="content-block">
-        <h2>Our Packages</h2>
-        <v-card>
-          <v-card-title>
-            Star Student
-            <span class="package-count">&nbsp;(1 class)</span>
-          </v-card-title>
-          <v-card-text class="text--primary">
-            Today you're waiting for one class, tomorrow you'll be waiting for your self-loathing to pass, again. If you're looking for a quick way to buy your way out of this destructive pattern... wrong website. But in the meantime,
-            we'll handle even your simple unwaitlist needs.
-            <div class="price-block">
-              Check
-              <span class="italics">one class</span> every
-              <span class="pill sixty-mins">hour for $60</span> or every
-              <span class="pill one-min">minute for $100</span>.
-            </div>
-          </v-card-text>
-        </v-card>
+        <h2>Join the Fam</h2>
+        <p>
+          You're barely treading water and we definitely saw your head bob under. Thank goodness our program is better at
+          unwaitlisting people than Zac Efron is at pretending to be a life guard.
+        </p>
 
-        <v-card>
-          <v-card-title>
-            Shoot ma goot
-            <span class="package-count">&nbsp;(3 classes)</span>
-          </v-card-title>
-          <v-card-text class="text--primary">
-            You're barely treading water and we definitely saw your head bob under. Thank goodness our program is as
-            good at unwaitlisting people as Zac Efron is at pretending to be a life guard. Your odds look survivable, but we'll drop you a 15% break.
-            <div class="price-block">
-              Check
-              <span class="italics">three classes</span> every
-              <span class="pill sixty-mins">hour for $51 per class</span> or every
-              <span class="pill one-min">minute for $85 per class</span>.
-            </div>
-          </v-card-text>
-        </v-card>
+        <v-layout justify-center wrap>
+          <v-flex xs12 md6>
+            <v-card class="my-card">
+              <v-card-title class="my-card-title">One n' done ✅</v-card-title>
 
-        <v-card>
-          <v-card-title>
-            Delinquint
-            <span class="package-count">&nbsp;(5 classes)</span>
-          </v-card-title>
-          <v-card-text class="text--primary">
-            Duuudddeeee, yikes. Although this is a strange time to begin acknowledging responsibilities,
-            we grant that it's better late than never. As some semblance of a consolation, we'll cut you a 30% discount.
-            <div class="price-block">
-              Check
-              <span class="italics">five classes</span> every
-              <span class="pill sixty-mins">hour for $42 per class</span> or every
-              <span class="pill one-min">minute for $70 per class</span>.
-            </div>
-          </v-card-text>
-        </v-card>
+              <v-card-text class="text--primary my-card-text">
+                <div>Check one class every hour for $18</div>
+                <div class="total-cost">
+                  <span class="font-weight-bold">Total:</span><span> $18</span>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+
+          <v-flex xs12 md6>
+            <v-card class="my-card">
+              <v-card-title class="my-card-title">Three's for bees 🐝</v-card-title>
+
+              <v-card-text class="text--primary my-card-text">
+                <div>Check three classes every hour for $16</div>
+                <div class="total-cost">
+                  <span class="font-weight-bold">Total:</span><span> $48</span>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <!--  -->
+
+          <v-flex xs12 md6>
+            <v-card class="my-card">
+              <v-card-title class="my-card-title">Five to jive 💃</v-card-title>
+
+              <v-card-text class="text--primary my-card-text">
+                <div>Check five classes every hour for $13</div>
+                <div class="total-cost">
+                  <span class="font-weight-bold">Total:</span><span> $65</span>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+        </v-layout>
+
+        <div>❗ For an additional $10 on any package, you can upgrade to a course check <span class="font-italic">every minute</span>.</div>
       </div>
     </v-flex>
   </v-layout>
@@ -63,23 +60,41 @@
 <style>
 /* PURCHASE RELATED STYLES ------------------------------------------------ */
 
+/* package card styles */
+.card-container {
+  display: flex;
+  flex: wrap;
+}
+
+.my-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.my-card .my-card-title {
+  font-weight: bold;
+}
+
+
+.total-cost {
+  margin: 10px;
+}
+
 /* pill styled price listings */
-.pill {
+/* .pill {
   box-shadow: grey 1px 1px 4px 0px;
   border-radius: 3px;
   white-space: nowrap;
   padding: 2px;
+  margin: 3px;
 }
 .pill.one-min {
   background-color: azure;
 }
 .pill.sixty-mins {
   background-color: rgb(255, 228, 228);
-}
-
-.price-block {
-  margin: 10px 0;
-}
+} */
 
 .package-count {
   color: lightslategray;
