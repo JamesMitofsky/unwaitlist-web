@@ -15,9 +15,10 @@
               <v-card-title class="my-card-title">One n' done ✅</v-card-title>
 
               <v-card-text class="text--primary my-card-text">
-                <div>Check one class every hour for $18</div>
+                <div class="subtitle-1">Check one class every hour for $18</div>
                 <div class="total-cost">
-                  <span class="font-weight-bold">Total:</span><span> $18</span>
+                  <span class="font-weight-bold">Total:</span>
+                  <span>$18</span>
                 </div>
               </v-card-text>
             </v-card>
@@ -28,9 +29,11 @@
               <v-card-title class="my-card-title">Three's for bees 🐝</v-card-title>
 
               <v-card-text class="text--primary my-card-text">
-                <div>Check three classes every hour for $16</div>
+                <div class="subtitle-1">Check three classes every hour for $16</div>
+                <span class="text--secondary">Per class</span>
                 <div class="total-cost">
-                  <span class="font-weight-bold">Total:</span><span> $48</span>
+                  <span class="font-weight-bold">Total:</span>
+                  <span>$48</span>
                 </div>
               </v-card-text>
             </v-card>
@@ -42,16 +45,21 @@
               <v-card-title class="my-card-title">Five to jive 💃</v-card-title>
 
               <v-card-text class="text--primary my-card-text">
-                <div>Check five classes every hour for $13</div>
+                <div class="subtitle-1">Check five classes every hour for $13</div>
+                <span class="text--secondary">Per class</span>
                 <div class="total-cost">
-                  <span class="font-weight-bold">Total:</span><span> $65</span>
+                  <span class="font-weight-bold">Total:</span>
+                  <span>$65</span>
                 </div>
               </v-card-text>
             </v-card>
           </v-flex>
         </v-layout>
 
-        <div>❗ For an additional $10 on any package, you can upgrade to a course check <span class="font-italic">every minute</span>.</div>
+        <div class="title">
+          ❗ For an additional $10 on any package, you can upgrade to a course check
+          <span class="font-italic">every minute</span>.
+        </div>
       </div>
     </v-flex>
   </v-layout>
@@ -75,7 +83,6 @@
 .my-card .my-card-title {
   font-weight: bold;
 }
-
 
 .total-cost {
   margin: 10px;
