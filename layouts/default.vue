@@ -9,7 +9,7 @@
         contain
       ></v-img>
 
-      <v-toolbar-title class="toolbar-title ml-5">
+      <v-toolbar-title class="my-toolbar-title ml-5">
         <nuxt-link class="home-link" to="/">unwaitlist.io</nuxt-link>
       </v-toolbar-title>
 
@@ -52,11 +52,11 @@ export default {
 
 
 /* unwaitlist header text */
-.toolbar-title a {
+.my-toolbar-title a {
   color: black;
   text-decoration: none;
 }
-.toolbar-title a:hover {
+.my-toolbar-title a:hover {
   text-decoration: underline;
 }
 
