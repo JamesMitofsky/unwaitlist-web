@@ -3,8 +3,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
+.v-card.v-card.v-card {
+  border-top: 3px solid #2C769B;
+}
 
 /* page transitions */
 /* set animation speed */

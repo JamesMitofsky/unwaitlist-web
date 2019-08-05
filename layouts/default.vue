@@ -1,16 +1,9 @@
 <template>
   <v-app>
     <v-app-bar class="nav-bar" app>
-      <v-img
-        class="mx-2"
-        :src="require('~/assets/number.png')"
-        max-height="50"
-        max-width="50"
-        contain
-      ></v-img>
 
       <v-toolbar-title class="my-toolbar-title">
-        <nuxt-link class="home-link" to="/">unwaitlist.io</nuxt-link>
+        <nuxt-link class="home-link" to="/"><span class="header-text-pronounced">unwaitlist</span><span class="header-text-muted">.io</span></nuxt-link>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -43,10 +36,29 @@ export default {
 </script>
 
 <style>
-/* set navbar color */
+/* NAVBAR STYLES */
 .v-app-bar.nav-bar {
-  background-color: rgb(152, 226, 222);
+  background-color: #2C769B;
 }
+
+.header-text-pronounced {
+  color: hsla(200, 66%, 94%, 1);
+}
+
+.header-text-muted {
+  color: hsla(200, 51%, 67%, 1);
+}
+
+.my-toolbar-title a {
+  color: hsla(200, 66%, 94%, 1);
+  text-decoration: none;
+}
+
+.my-toolbar-items .v-btn {
+  color: #d3e5ee;
+}
+
+
 
 /* sets navbar text as dynamic when screen is small*/
 @media screen and (max-width: 600px) {
@@ -59,14 +71,7 @@ export default {
   }
 }
 
-/* unwaitlist header text */
-.my-toolbar-title a {
-  color: black;
-  text-decoration: none;
-}
-.my-toolbar-title a:hover {
-  text-decoration: underline;
-}
+
 
 /* import smiler font */
 @font-face {
