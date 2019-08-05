@@ -15,7 +15,7 @@
             <v-card class="card">
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophmore at the University of Vermont.
-                I'm a Political Science major and I spend my free time making trips to City Market for the spectacle.
+                I'm a Political Science major and I spend my free time walking to City Market just for the spectacle.
                 This began as a way to compensate for my laziness and I hope the spirit of that lives on through other people.
               </v-card-text>
               <v-card-text class="text--primary">
