@@ -1,18 +1,18 @@
 <template>
   <v-layout justify-center align-center wrap>
-    <v-flex xs12 sm10 md8 xl7>
+    <v-flex>
       <div class="content-block">
         <h2>Contact</h2>
-        <v-card class="card">
-          <div>
-            <v-flex>
-              <img
-                class="portrait"
-                src="../assets/little-james.jpg"
-                alt="Just a picture of little me boppin' around."
-              />
-            </v-flex>
-            <v-flex>
+        <v-layout wrap>
+          <v-flex xs12 sm6>
+            <img
+              class="portrait"
+              src="../assets/little-james.jpg"
+              alt="Just a picture of little me boppin' around."
+            />
+          </v-flex>
+          <v-flex xs12 sm6>
+            <v-card class="card">
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophmore at the University of Vermont.
                 I'm a Political Science major and I spend my free time making countless trips to City Market just for the spectacle.
@@ -20,25 +20,30 @@
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me at
-                <a
-                  href="mailto:jtedesco@uvm.edu"
-                >jtedesco@uvm.edu</a>.
+                <a href="mailto:jtedesco@uvm.edu">jtedesco@uvm.edu</a>.
               </v-card-text>
-            </v-flex>
-          </div>
-        </v-card>
+            </v-card>
+          </v-flex>
+        </v-layout>
       </div>
     </v-flex>
   </v-layout>
 </template>
 
 <style>
-.card {
-  overflow: hidden;
+/* .card {
+  min-width: 300px;
+} */
+
+@media screen and (min-width: 600px) {
+  .card{
+    margin-left: 10px;
+  }
 }
 
 .portrait {
-  max-width: 400px;
+  width: 100%;
+  max-width: 600px;
 }
 </style>
 
