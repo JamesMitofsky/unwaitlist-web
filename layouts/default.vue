@@ -15,7 +15,7 @@
       </v-toolbar-items>
     </v-app-bar>
 
-    <v-content>
+    <v-content class="my-content">
       <v-container>
         <nuxt />
       </v-container>
@@ -58,16 +58,20 @@ export default {
   color: #d3e5ee;
 }
 
+/* move the injected content down */
+.my-content {
+  margin-top: 15px;
+}
 
 
 /* sets navbar text as dynamic when screen is small*/
 @media screen and (max-width: 600px) {
   .my-toolbar-title {
-    font-size: 2.4vw;
+    font-size: 3.3vw;
   }
-  .my-toolbar-items .v-btn {
-    font-size: 2.5vw;
-    padding: 0 8px !important;
+  .my-toolbar-items .v-btn.v-btn {
+    font-size: 3.2vw;
+    padding: 0 8px;
   }
 }
 
