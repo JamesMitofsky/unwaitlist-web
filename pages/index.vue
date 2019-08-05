@@ -1,6 +1,6 @@
 <template>
   <v-layout justify-center align-center wrap>
-    <v-flex xs12 sm10 md8 xl7>
+    <v-flex xs12 sm10 xl7>
       <div id="philosophy" class="content-block">
         <!--Section: Our Philosophy-->
         <div id="phil-header-container">

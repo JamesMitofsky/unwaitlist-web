@@ -1,6 +1,6 @@
 <template>
   <v-layout justify-center align-center wrap>
-    <v-flex xs12 sm10 md8 xl7>
+    <v-flex xs12 sm10 xl7>
       <div class="content-block">
         <h2>Contact</h2>
         <v-layout wrap>
