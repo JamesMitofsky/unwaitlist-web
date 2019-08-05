@@ -16,8 +16,8 @@
           <v-card-title>How does it work?</v-card-title>
           <v-card-text class="text--primary">
             <p>
-              UVM's course registration system allows students to sign up at their leisure, but if a class is booked you can request to be placed on the waitlist. Unfortunately,
-              this waitlist might as well be quilled parchment - it has no connection to the registration portal. This means even if you were first on the waitlist, as soon as
+              UVM's course registration system allows students to sign up at their leisure, but if a class is booked, you can request to be placed on the waitlist. Unfortunately,
+              this waitlist might as well be quilled parchment - it has no connection to the registration portal. This means <span class="font-italic">even if you were first on the waitlist</span>, as soon as
               the class has an opening, absolutely anyone can take that spot.
             </p>
             <p>Unwaitlist checks the enrollment status of a given class at an assignable interval (i.e. every minute, hour, or 525,600 minutes), evaluates if there is an opening, and then if apppropriate, sends an email and calls you right away.</p>
