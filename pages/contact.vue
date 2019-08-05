@@ -4,7 +4,7 @@
       <div class="content-block">
         <h2>Contact</h2>
         <v-card class="card">
-          <v-layout>
+          <div>
             <v-flex>
               <img
                 class="portrait"
@@ -25,7 +25,7 @@
                 >jtedesco@uvm.edu</a>.
               </v-card-text>
             </v-flex>
-          </v-layout>
+          </div>
         </v-card>
       </div>
     </v-flex>
@@ -33,6 +33,10 @@
 </template>
 
 <style>
+.card {
+  overflow: hidden;
+}
+
 .portrait {
   max-width: 400px;
 }
