@@ -33,25 +33,24 @@
 export default {
   head () {
     return {
-      title: "testing",
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {charset: "UTF-8"},
         // General SEO
-        {name:"description", content: "This service is designed to help get University of Vermont students off the course waitlist."},
+        {name:"description", content: "A service designed to help get University of Vermont students off the course waitlist."},
         {name:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
         // Google
         {itemprop:"name", content:"unwaitlist"},
-        {itemprop:"description", content:"This service is designed to help get University of Vermont students off the course waitlist."},
+        {itemprop:"description", content:"A service designed to help get University of Vermont students off the course waitlist."},
         {itemprop:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
         // Twitter
         {name:"twitter:card", content:"summary"},
         {name:"twitter:title", content:"unwaitlist"},
-        {name:"twitter:description", content:"This service is designed to help get University of Vermont students off the course waitlist."},
+        {name:"twitter:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
         {name:"twitter:image:src", content:"https://unwaitlist.io/unwaitlist-preview.png"},
         // Open Graph general (Facebook, Pintrest, & Google)
         {name:"og:title", content:"unwaitlist"},
-        {name:"og:description", content:"This service is designed to help get University of Vermont students off the course waitlist."},
+        {name:"og:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
         {name:"og:url", content:"https://unwaitlist.io/"},
         {name:"og:site_name", content:"unwaitlist"},
         {name:"og:type", content:"product"}

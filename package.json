@@ -1,7 +1,7 @@
 {
   "name": "unwaitlist",
   "version": "1.0.0",
-  "description": "skip the line",
+  "description": "A service designed to help get University of Vermont students off the course waitlist.",
   "author": "JK",
   "private": true,
   "scripts": {
