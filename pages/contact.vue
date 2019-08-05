@@ -31,13 +31,19 @@
 </template>
 
 <style>
-/* .card {
-  min-width: 300px;
-} */
 
+/* when elements share width, add margin */
 @media screen and (min-width: 600px) {
   .card{
     margin-left: 10px;
+  }
+}
+
+/* when elements are stacked, move border highlight to side */
+@media screen and (max-width: 600px) {
+  .v-card.v-card.v-card {
+  border-left: 3px solid #2C769B;
+  border-top: none;
   }
 }
 
