@@ -112,3 +112,14 @@
 }
 </style>
 
+
+<script>
+export default {
+  head () {
+    return {
+      title: "Packages",
+    }
+  }
+}
+</script>
+

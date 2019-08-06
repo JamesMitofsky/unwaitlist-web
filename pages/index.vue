@@ -29,8 +29,6 @@
 </template>
 
 <style>
-
-
 /* PHIL RELATED STYLES -------------------------------------------------- */
 
 /* philosophy header grouping */
@@ -41,4 +39,14 @@
   font-size: 12px;
 }
 </style>
+
+<script>
+export default {
+  head () {
+    return {
+      title: "Our Philosophy",
+    }
+  }
+}
+</script>
 
