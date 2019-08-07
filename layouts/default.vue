@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar class="nav-bar" app>
       <v-toolbar-title class="my-toolbar-title">
-        <nuxt-link class="home-link" to="/">
+        <nuxt-link class="smiler-font" to="/">
           <span class="header-text-pronounced">unwaitlist</span>
           <span class="header-text-muted">.io</span>
         </nuxt-link>
@@ -27,43 +27,12 @@
       <span>James Tedesco &copy; 2019</span>
 
       <v-spacer></v-spacer>
-
-      <span>Made with ❤️ by a UVM student</span>
+      <nuxt-link to="/contact" class="made-with-love">
+        Made with ❤️ by a UVM student
+      </nuxt-link>
     </v-footer>
   </v-app>
 </template>
-
-<script>
-export default {
-  head () {
-    return {
-      meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {charset: "UTF-8"},
-        // General SEO
-        {name:"description", content: "A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
-        // Google
-        {itemprop:"name", content:"unwaitlist"},
-        {itemprop:"description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {itemprop:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
-        // Twitter
-        {name:"twitter:card", content:"summary"},
-        {name:"twitter:title", content:"unwaitlist"},
-        {name:"twitter:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"twitter:image:src", content:"https://unwaitlist.io/unwaitlist-preview.png"},
-        // Open Graph general (Facebook, Pintrest, & Google)
-        {name:"og:title", content:"unwaitlist"},
-        {name:"og:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"og:url", content:"https://unwaitlist.io/"},
-        {name:"og:site_name", content:"unwaitlist"},
-        {name:"og:type", content:"product"}
-      ]
-    }
-  }
-}
-
-</script>
 
 <style>
 /* NAVBAR STYLES */
@@ -109,7 +78,51 @@ export default {
   font-family: 'Smiler';
   src: url(../assets/Smiler.ttf) format('truetype');
 }
-.home-link {
+.smiler-font {
   font-family: 'Smiler';
 }
+
+/* FOOTER STYLES */
+.made-with-love {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
 </style>
+
+
+<script>
+export default {
+  head () {
+    return {
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {charset: "UTF-8"},
+        // General SEO
+        {name:"description", content: "A service designed to help get University of Vermont students off the course waitlist."},
+        {name:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        // Google
+        {itemprop:"name", content:"unwaitlist"},
+        {itemprop:"description", content:"A service designed to help get University of Vermont students off the course waitlist."},
+        {itemprop:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        // Twitter
+        {name:"twitter:card", content:"summary"},
+        {name:"twitter:title", content:"unwaitlist"},
+        {name:"twitter:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
+        {name:"twitter:image:src", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        // Open Graph general (Facebook, Pintrest, & Google)
+        {name:"og:title", content:"unwaitlist"},
+        {name:"og:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
+        {name:"og:url", content:"https://unwaitlist.io/"},
+        {name:"og:site_name", content:"unwaitlist"},
+        {name:"og:type", content:"product"}
+      ]
+    }
+  }
+}
+
+</script>
+
+
