@@ -25,6 +25,10 @@
 
     <v-footer dark>
       <span>James Tedesco &copy; 2019</span>
+
+      <v-spacer></v-spacer>
+
+      <span>Made with ❤️ by a UVM student</span>
     </v-footer>
   </v-app>
 </template>
