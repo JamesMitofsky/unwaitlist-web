@@ -5,19 +5,23 @@
         <!--Section: Our Philosophy-->
         <div id="phil-header-container">
           <h2>Philosophy: No More Waiting*</h2>
-          <p class="text-right text--secondary">*Well, still, actually, probably wait a little</p>
+          <p class="text-right text--secondary">*Well, still, actually, probably a little</p>
         </div>
         <p>
           Guaranteeing a spot during class sign-up is hard. Whether it's struggling to beat hoards of students at the crack of dawn or just realizing a little late which classes interest you,
-          <span class="font-italic">unwaitlist</span> can help.
+          <span
+            class="font-italic"
+          >unwaitlist</span> can help.
+        <span>If you're trying to enroll in a class which is full, we got you fam.</span>
         </p>
 
         <v-card>
-          <v-card-title>How does it work?</v-card-title>
+          <v-card-title>How does this help you?</v-card-title>
           <v-card-text class="text--primary">
             <p>
               UVM's course registration system allows students to sign up at their leisure, but if a class is booked, you can request to be placed on the waitlist. Unfortunately,
-              this waitlist might as well be quilled parchment - it has no connection to the registration portal. This means <span class="font-italic">even if you were first on the waitlist</span>, as soon as
+              this waitlist might as well be quilled parchment - it has no connection to the registration portal. This means
+              <span class="font-italic">even if you were first on the waitlist</span>, as soon as
               the class has an opening, absolutely anyone can take that spot.
             </p>
             <p>Unwaitlist checks the enrollment status of a given class at an assignable interval (i.e. every minute, hour, or 525,600 minutes), evaluates if there is an opening, and then if apppropriate, sends an email and calls you right away.</p>
@@ -42,9 +46,9 @@
 
 <script>
 export default {
-  head () {
+  head() {
     return {
-      title: "Our Philosophy",
+      title: 'Our Philosophy'
     }
   }
 }
