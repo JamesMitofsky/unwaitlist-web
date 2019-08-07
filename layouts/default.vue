@@ -83,14 +83,10 @@
 }
 
 /* FOOTER STYLES */
-.made-with-love {
+.v-footer .made-with-love {
   font-size: 10px;
   color: white;
   text-decoration: none;
-}
-/* prevents link from appearing blue when unvisited */
-.made-with-love:unvisited {
-  color: white;
 }
 
 
