@@ -88,6 +88,10 @@
   color: white;
   text-decoration: none;
 }
+/* prevents link from appearing blue when unvisited */
+.made-with-love:unvisited {
+  color: white;
+}
 
 
 </style>
