@@ -14,9 +14,9 @@
           <v-flex xs12 sm6>
             <v-card class="card">
               <v-card-text class="text--primary">
-                Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont.
-                I'm a Political Science major and I spend my free time walking to City Market just for the spectacle.
-                This began as a way to compensate for my laziness and I hope the spirit of that lives on through other people.
+                Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
+                I spend my free time counting ducks and making trips to City Market just for the spectacle.
+                This project began as a way to compensate for my laziness and I hope the spirit of that lives on through other people.
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me at
