@@ -17,11 +17,12 @@
                 <v-card-text class="text--primary my-card-text">
                   <div class="subtitle-1">
                     Check one class every hour for
-                    <span class="font-weight-bold">$13</span>
+                    <span class="font-weight-bold">$5</span>
+                    <span class="text--secondary">per class in a semester</span>
                   </div>
                   <div class="total-cost">
                     <span class="font-weight-bold">Total:</span>
-                    <span>$13</span>
+                    <span>$5</span>
                   </div>
                 </v-card-text>
               </v-card>
@@ -34,12 +35,12 @@
                 <v-card-text class="text--primary my-card-text">
                   <div class="subtitle-1">
                     Check three classes every hour for
-                    <span class="font-weight-bold">$11</span>
-                    <span class="text--secondary">per class</span>
+                    <span class="font-weight-bold">$4</span>
+                    <span class="text--secondary">per class in a semester</span>
                   </div>
                   <div class="total-cost">
                     <span class="font-weight-bold">Total:</span>
-                    <span>$33</span>
+                    <span>$12</span>
                   </div>
                 </v-card-text>
               </v-card>
@@ -53,12 +54,12 @@
                 <v-card-text class="text--primary my-card-text">
                   <div class="subtitle-1">
                     Check five classes every hour for
-                    <span class="font-weight-bold">$8</span>
-                    <span class="text--secondary">per class</span>
+                    <span class="font-weight-bold">$3</span>
+                    <span class="text--secondary">per class in a semester</span>
                   </div>
                   <div class="total-cost">
                     <span class="font-weight-bold">Total:</span>
-                    <span>$40</span>
+                    <span>$15</span>
                   </div>
                 </v-card-text>
               </v-card>
@@ -67,7 +68,7 @@
         </v-container>
 
         <div class="title">
-          ❗ For an additional $7 per class, you can upgrade for checks
+          ❗ For an additional $2 per package, you can upgrade to checks
           <span
             class="font-italic"
           >every minute</span>.
