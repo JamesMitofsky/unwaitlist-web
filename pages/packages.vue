@@ -88,6 +88,7 @@
 
 .my-card {
   flex: 1 1 auto;
+  margin: 10px;
 }
 
 .my-card .my-card-title {
