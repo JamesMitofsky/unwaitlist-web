@@ -86,9 +86,6 @@
 }
 
 .my-card {
-  /* display: flex;
-  flex-direction: column; */
-  margin: 10px;
   flex: 1 1 auto;
 }
 
