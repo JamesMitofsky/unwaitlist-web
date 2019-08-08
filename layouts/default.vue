@@ -28,7 +28,7 @@
 
       <v-spacer></v-spacer>
       <nuxt-link to="/contact" class="made-with-love">
-        Made with ❤️ by a UVM student
+        Made with ❤️ in BTV
       </nuxt-link>
     </v-footer>
   </v-app>
