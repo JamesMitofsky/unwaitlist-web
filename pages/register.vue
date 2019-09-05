@@ -133,7 +133,7 @@ div.card-bottom .v-btn.select-package.select-package {
 export default {
   head() {
     return {
-      title: 'Packages'
+      title: 'Register'
     }
   }
 }
