@@ -20,9 +20,12 @@
                     <span class="font-weight-bold">$5</span>
                     <span class="text--secondary">per class in a semester</span>
                   </div>
-                  <div class="total-cost">
-                    <span class="font-weight-bold">Total:</span>
-                    <span>$5</span>
+                  <div class="card-bottom">
+                    <div class="total-cost">
+                      <span class="font-weight-bold">Total:</span>
+                      <span>$5</span>
+                    </div>
+                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -38,9 +41,12 @@
                     <span class="font-weight-bold">$4</span>
                     <span class="text--secondary">per class in a semester</span>
                   </div>
-                  <div class="total-cost">
-                    <span class="font-weight-bold">Total:</span>
-                    <span>$12</span>
+                  <div class="card-bottom">
+                    <div class="total-cost">
+                      <span class="font-weight-bold">Total:</span>
+                      <span>$12</span>
+                    </div>
+                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -57,9 +63,12 @@
                     <span class="font-weight-bold">$3</span>
                     <span class="text--secondary">per class in a semester</span>
                   </div>
-                  <div class="total-cost">
-                    <span class="font-weight-bold">Total:</span>
-                    <span>$15</span>
+                  <div class="card-bottom">
+                    <div class="total-cost">
+                      <span class="font-weight-bold">Total:</span>
+                      <span>$15</span>
+                    </div>
+                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -95,14 +104,22 @@
   font-weight: bold;
 }
 
-.total-cost {
-  margin: 10px;
+
+/* bottom of card styles */
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.package-count {
-  color: lightslategray;
+
+
+div.card-bottom .v-btn.select-package.select-package {
+  background-color: rgb(37, 106, 255);
 }
 
+
+/* adds border movement to cards */
 @media screen and (max-width: 960px) {
   .v-card.v-card.v-card {
     border-left: 3px solid #2c769b;
@@ -114,9 +131,9 @@
 
 <script>
 export default {
-  head () {
+  head() {
     return {
-      title: "Packages",
+      title: 'Packages'
     }
   }
 }
