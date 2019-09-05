@@ -2,7 +2,8 @@
   <v-app>
     <v-app-bar class="nav-bar" app>
       <v-toolbar-title class="my-toolbar-title">
-        <nuxt-link class="smiler-font" to="/">
+        <nuxt-link class="unwaitlist-logo-container smiler-font" to="/">
+          <img class="logo" src="../static/icon.png" alt="Logo" />
           <span class="header-text-pronounced">unwaitlist</span>
           <span class="header-text-muted">.io</span>
         </nuxt-link>
@@ -12,7 +13,7 @@
 
       <v-toolbar-items class="my-toolbar-items">
         <v-btn text to="/">Our Phil</v-btn>
-        <v-btn text to="/packages">Packages</v-btn>
+        <v-btn text to="/register">Register</v-btn>
         <v-btn text to="/contact">Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -27,9 +28,7 @@
       <span>James Tedesco &copy; 2019</span>
 
       <v-spacer></v-spacer>
-      <nuxt-link to="/contact" class="made-with-love">
-        Made with ❤️ in BTV
-      </nuxt-link>
+      <nuxt-link to="/contact" class="made-with-love">Made with ❤️ in BTV</nuxt-link>
     </v-footer>
   </v-app>
 </template>
@@ -55,6 +54,17 @@
 
 .my-toolbar-items .v-btn {
   color: #d3e5ee;
+}
+
+/* Control logo size */
+.unwaitlist-logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 4vw;
+  margin-right: 5px;
+  max-width: 85px;
 }
 
 /* move the injected content down */
@@ -88,41 +98,63 @@
   color: white;
   text-decoration: none;
 }
-
-
 </style>
 
 
 <script>
 export default {
-  head () {
+  head() {
     return {
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        {charset: "UTF-8"},
+        { charset: 'UTF-8' },
         // General SEO
-        {name:"description", content: "A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        {
+          name: 'description',
+          content:
+            'A service designed to help get University of Vermont students off the course waitlist.'
+        },
+        {
+          name: 'image',
+          content: 'https://unwaitlist.io/unwaitlist-preview.png'
+        },
         // Google
-        {itemprop:"name", content:"unwaitlist"},
-        {itemprop:"description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {itemprop:"image", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        { itemprop: 'name', content: 'unwaitlist' },
+        {
+          itemprop: 'description',
+          content:
+            'A service designed to help get University of Vermont students off the course waitlist.'
+        },
+        {
+          itemprop: 'image',
+          content: 'https://unwaitlist.io/unwaitlist-preview.png'
+        },
         // Twitter
-        {name:"twitter:card", content:"summary"},
-        {name:"twitter:title", content:"unwaitlist"},
-        {name:"twitter:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"twitter:image:src", content:"https://unwaitlist.io/unwaitlist-preview.png"},
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:title', content: 'unwaitlist' },
+        {
+          name: 'twitter:description',
+          content:
+            'A service designed to help get University of Vermont students off the course waitlist.'
+        },
+        {
+          name: 'twitter:image:src',
+          content: 'https://unwaitlist.io/unwaitlist-preview.png'
+        },
         // Open Graph general (Facebook, Pintrest, & Google)
-        {name:"og:title", content:"unwaitlist"},
-        {name:"og:description", content:"A service designed to help get University of Vermont students off the course waitlist."},
-        {name:"og:url", content:"https://unwaitlist.io/"},
-        {name:"og:site_name", content:"unwaitlist"},
-        {name:"og:type", content:"product"}
+        { name: 'og:title', content: 'unwaitlist' },
+        {
+          name: 'og:description',
+          content:
+            'A service designed to help get University of Vermont students off the course waitlist.'
+        },
+        { name: 'og:url', content: 'https://unwaitlist.io/' },
+        { name: 'og:site_name', content: 'unwaitlist' },
+        { name: 'og:type', content: 'product' }
       ]
     }
   }
 }
-
 </script>
 
 
