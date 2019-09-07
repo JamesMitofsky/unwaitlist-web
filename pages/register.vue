@@ -25,7 +25,7 @@
                       <span class="font-weight-bold">Total:</span>
                       <span>$5</span>
                     </div>
-                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
+                    <v-btn to="/unwaitlist-one-class" small class="light-blue darken-3 white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
