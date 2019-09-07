@@ -87,7 +87,7 @@
   </v-layout>
 </template>
 
-<style>
+<style scoped>
 /* PURCHASE RELATED STYLES ------------------------------------------------ */
 
 /* package card styles */
