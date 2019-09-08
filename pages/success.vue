@@ -4,7 +4,7 @@
       <v-card-title>Request Submitted!</v-card-title>
       <v-card-text
         class="text--primary"
-      >An receipt of confirmation will be emailed soon. To finish up, just Venmo me the cost of the package you requested and I'll activate it on my end.</v-card-text>
+      >A confirmation receipt will be emailed soon. To finish up, just Venmo me the cost of the package you requested and I'll activate it on my end.</v-card-text>
       <div class="payment-methods">
         <a href="https://venmo.com/JamesTedesco">Finish by paying through Venmo.</a>
 

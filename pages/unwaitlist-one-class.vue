@@ -35,8 +35,8 @@
         onload="if(submitted)  {window.location='success';}"
       ></iframe>
 
-      <v-card class="my-card">
-        <v-card-title class="my-card-title">Package Profile Info</v-card-title>
+      <v-card class="my-card form-card">
+        <v-card-title class="my-card-title">Unwaitlist Your Class!</v-card-title>
         <form
           class="form"
           action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdL6QgGVjqsDvZsEx__yltIvMmzWdfCX4NHksRmbgC1JQOrYA/formResponse"
@@ -45,7 +45,7 @@
           onsubmit="submitted=true;"
           autocomplete="on"
         >
-          <div class="input-block">
+          <div class="form-subset input-block">
             <label for="firstName">First Name</label>
             <input id="firstName"
               placeholder="Gary"
@@ -56,12 +56,12 @@
             />
           </div>
 
-          <div class="input-block">
+          <div class="form-subset input-block">
             <label for="lastName">Last Name</label>
             <input id="lastName" placeholder="Derr" name="entry.1110633439" type="text" required />
           </div>
 
-          <div class="input-block">
+          <div class="form-subset input-block">
             <label for="emailAddress">Email</label>
             <input
               id="emailAddress"
@@ -73,7 +73,7 @@
             />
           </div>
 
-          <div class="input-block">
+          <div class="form-subset input-block">
             <label for="cellPhone">Cell Phone</label>
             <input
               id="cellPhone"
@@ -84,7 +84,7 @@
             />
           </div>
 
-          <div class="input-block">
+          <div class="form-subset input-block">
             <label for="crnInput">CRN</label>
             <!-- Max nums: https://stackoverflow.com/a/50442323/5395435 -->
             <input
@@ -98,8 +98,8 @@
             />
           </div>
 
-          <div class="input-block">
-            <input id="submit-button" type="submit" value="Submit" />
+          <div class="form-subset">
+            <v-btn class="light-blue darken-3 white--text" id="submit-button" type="submit" value="Submit">Submit</v-btn>
           </div>
         </form>
       </v-card>
@@ -141,11 +141,6 @@ export default {
   margin: 10px;
 }
 
-input {
-  padding: 0px 3px;
-  background-color: white;
-}
-
 .form {
   padding: 10px 25px;
   display: flex;
@@ -153,21 +148,22 @@ input {
   width: auto;
 }
 
-.input-block {
+.form-subset {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  background-color: rgb(231, 231, 231);
   border-radius: 5px;
   padding: 4px;
+}
+
+input {
+  padding: 0px 3px;
+  background-color: white;
+  box-shadow: hsl(204, 27%, 56%) 1px 1px 5px 0px;
 }
 
 #submit-button {
   transition: all .2s;
   cursor: pointer
-}
-
-#submit-button:hover {
-  background-color: rgb(228, 237, 255);
 }
 </style>
