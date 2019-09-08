@@ -45,9 +45,10 @@
           onsubmit="submitted=true;"
           autocomplete="on"
         >
-          <div class="form-subset input-block">
+          <div class="form-subset">
             <label for="firstName">First Name</label>
-            <input id="firstName"
+            <input
+              id="firstName"
               placeholder="Gary"
               name="entry.175684321"
               type="text"
@@ -56,13 +57,19 @@
             />
           </div>
 
-          <div class="form-subset input-block">
+          <div class="form-subset">
             <label for="lastName">Last Name</label>
             <input id="lastName" placeholder="Derr" name="entry.1110633439" type="text" required />
           </div>
 
-          <div class="form-subset input-block">
-            <label for="emailAddress">Email</label>
+          <div class="form-subset">
+            <div class="label-block">
+              <label for="emailAddress">Email</label>
+              <div class="help-tip">
+                <p>Used to share important course changes in a readable, non-time-sensative way.</p>
+              </div>
+            </div>
+
             <input
               id="emailAddress"
               placeholder="Gary.Derr@email.com"
@@ -73,8 +80,13 @@
             />
           </div>
 
-          <div class="form-subset input-block">
-            <label for="cellPhone">Cell Phone</label>
+          <div class="form-subset">
+            <div class="label-block">
+              <label for="cellPhone">Cell Phone</label>
+              <div class="help-tip">
+                <p>Used to call you if your class opens up.</p>
+              </div>
+            </div>
             <input
               id="cellPhone"
               placeholder="(802) 867-5309"
@@ -84,11 +96,11 @@
             />
           </div>
 
-          <div class="form-subset input-block">
+          <div class="form-subset">
             <label for="crnInput">CRN</label>
             <!-- Max nums: https://stackoverflow.com/a/50442323/5395435 -->
             <input
-            id="crnInput"
+              id="crnInput"
               placeholder="95377"
               name="entry.232057564"
               type="number"
@@ -99,7 +111,12 @@
           </div>
 
           <div class="form-subset">
-            <v-btn class="light-blue darken-3 white--text" id="submit-button" type="submit" value="Submit">Submit</v-btn>
+            <v-btn
+              class="light-blue darken-3 white--text"
+              id="submit-button"
+              type="submit"
+              value="Submit"
+            >Submit</v-btn>
           </div>
         </form>
       </v-card>
@@ -156,6 +173,28 @@ export default {
   padding: 4px;
 }
 
+.label-block {
+  display: flex;
+  justify-content: space-between;
+}
+.information-svg {
+  width: 15px;
+}
+.info-text {
+  background-color: rgb(255, 206, 214);
+  width: 105px;
+  display: block;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 3px;
+  border-radius: 3px;
+}
+.information-svg:hover + .info-text {
+  display: block;
+}
+
 input {
   padding: 0px 3px;
   background-color: white;
@@ -163,7 +202,90 @@ input {
 }
 
 #submit-button {
-  transition: all .2s;
-  cursor: pointer
+  transition: all 0.2s;
+  cursor: pointer;
 }
+
+
+/* CSS grabbed from: https://tutorialzine.com/2014/07/css-inline-help-tips */
+.help-tip{
+    text-align: center;
+    background-color: #BCDBEA;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+}
+
+.help-tip:before{
+    content:'?';
+    font-weight: bold;
+    color:#fff;
+}
+
+.help-tip:hover p{
+    display:block;
+    transform-origin: 100% 0%;
+
+    -webkit-animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.3s ease-in-out;
+
+}
+
+.help-tip p{    /* The tooltip */
+    display: none;
+    text-align: left;
+    background-color: #1E2021;
+    padding: 12px;
+    width: 300px;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    right: -4px;
+    color: #FFF;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.help-tip p:before{ /* The pointer of the tooltip */
+    position: absolute;
+    content: '';
+    width:0;
+    height: 0;
+    border:6px solid transparent;
+    border-bottom-color:#1E2021;
+    right: 48px;
+    top:-12px;
+}
+
+.help-tip p:after{ /* Prevents the tooltip from being hidden */
+    width:100%;
+    height:40px;
+    content:'';
+    position: absolute;
+    top:-40px;
+    left:0;
+}
+
+/* CSS animation */
+
+@-webkit-keyframes fadeIn {
+    0% { 
+        opacity:0; 
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity:100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:100%; }
+}
+
 </style>
