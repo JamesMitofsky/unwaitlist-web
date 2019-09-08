@@ -52,14 +52,19 @@
               placeholder="e.g. Gary"
               name="entry.175684321"
               type="text"
-              autocomplete="email"
               required
             />
           </div>
 
           <div class="form-subset">
             <label for="lastName">Last Name</label>
-            <input id="lastName" placeholder="e.g. Derr" name="entry.1110633439" type="text" required />
+            <input
+              id="lastName"
+              placeholder="e.g. Derr"
+              name="entry.1110633439"
+              type="text"
+              required
+            />
           </div>
 
           <div class="form-subset">
@@ -82,7 +87,7 @@
 
           <div class="form-subset">
             <div class="label-block">
-              <label for="cellPhone">Cell Phone</label>
+              <label for="cellPhone">Phone</label>
               <div class="help-tip">
                 <p>Used to call you if your class opens up.</p>
               </div>
@@ -92,6 +97,7 @@
               placeholder="e.g. (802) 867-5309"
               name="entry.122122566"
               type="tel"
+              autocomplete="mobile"
               required
             />
           </div>
@@ -206,86 +212,90 @@ input {
   cursor: pointer;
 }
 
-
 /* CSS grabbed from: https://tutorialzine.com/2014/07/css-inline-help-tips */
-.help-tip{
-    text-align: center;
-    background-color: #BCDBEA;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    font-size: 14px;
-    line-height: 26px;
-    cursor: default;
+.help-tip {
+  text-align: center;
+  background-color: #bcdbea;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 26px;
+  cursor: default;
 }
 
-.help-tip:before{
-    content:'?';
-    font-weight: bold;
-    color:#fff;
+.help-tip:before {
+  content: '?';
+  font-weight: bold;
+  color: #fff;
 }
 
-.help-tip:hover p{
-    display:block;
-    transform-origin: 100% 0%;
+.help-tip:hover p {
+  display: block;
+  transform-origin: 100% 0%;
 
-    -webkit-animation: fadeIn 0.3s ease-in-out;
-    animation: fadeIn 0.3s ease-in-out;
-
+  -webkit-animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.3s ease-in-out;
 }
 
-.help-tip p{    /* The tooltip */
-    display: none;
-    text-align: left;
-    background-color: #1E2021;
-    padding: 12px;
-    width: 300px;
-    position: absolute;
-    border-radius: 3px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    right: -4px;
-    color: #FFF;
-    font-size: 13px;
-    line-height: 1.4;
+.help-tip p {
+  /* The tooltip */
+  display: none;
+  text-align: left;
+  background-color: #1e2021;
+  padding: 12px;
+  width: 300px;
+  position: absolute;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  right: -4px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.4;
 }
 
-.help-tip p:before{ /* The pointer of the tooltip */
-    position: absolute;
-    content: '';
-    width:0;
-    height: 0;
-    border:6px solid transparent;
-    border-bottom-color:#1E2021;
-    right: 48px;
-    top:-12px;
+.help-tip p:before {
+  /* The pointer of the tooltip */
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-bottom-color: #1e2021;
+  right: 48px;
+  top: -12px;
 }
 
-.help-tip p:after{ /* Prevents the tooltip from being hidden */
-    width:100%;
-    height:40px;
-    content:'';
-    position: absolute;
-    top:-40px;
-    left:0;
+.help-tip p:after {
+  /* Prevents the tooltip from being hidden */
+  width: 100%;
+  height: 40px;
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
 }
 
 /* CSS animation */
 
 @-webkit-keyframes fadeIn {
-    0% { 
-        opacity:0; 
-        transform: scale(0.6);
-    }
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
 
-    100% {
-        opacity:100%;
-        transform: scale(1);
-    }
+  100% {
+    opacity: 100%;
+    transform: scale(1);
+  }
 }
 
 @keyframes fadeIn {
-    0% { opacity:0; }
-    100% { opacity:100%; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
-
 </style>
