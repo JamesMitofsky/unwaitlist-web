@@ -49,7 +49,7 @@
             <label for="firstName">First Name</label>
             <input
               id="firstName"
-              placeholder="Gary"
+              placeholder="e.g. Gary"
               name="entry.175684321"
               type="text"
               autocomplete="email"
@@ -59,7 +59,7 @@
 
           <div class="form-subset">
             <label for="lastName">Last Name</label>
-            <input id="lastName" placeholder="Derr" name="entry.1110633439" type="text" required />
+            <input id="lastName" placeholder="e.g. Derr" name="entry.1110633439" type="text" required />
           </div>
 
           <div class="form-subset">
@@ -72,7 +72,7 @@
 
             <input
               id="emailAddress"
-              placeholder="Gary.Derr@email.com"
+              placeholder="e.g. Gary.Derr@email.com"
               name="entry.1057850542"
               type="email"
               autocomplete="email"
@@ -89,7 +89,7 @@
             </div>
             <input
               id="cellPhone"
-              placeholder="(802) 867-5309"
+              placeholder="e.g. (802) 867-5309"
               name="entry.122122566"
               type="tel"
               required
@@ -101,7 +101,7 @@
             <!-- Max nums: https://stackoverflow.com/a/50442323/5395435 -->
             <input
               id="crnInput"
-              placeholder="95377"
+              placeholder="e.g. 95377"
               name="entry.232057564"
               type="number"
               pattern="/^-?\d+\.?\d*$/"
