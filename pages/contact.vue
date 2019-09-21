@@ -13,7 +13,7 @@
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
                 I spend my free time eating fried ice cream, juggling, and making City Market trips just for the spectacle.
-                This project began as a way to compensate for my own laziness and I hope the spirit of that lives on through others.
+                This project began as a way to compensate for my own laziness and I hope the spirit of that can live on through others.
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me at
