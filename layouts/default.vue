@@ -64,7 +64,7 @@
 .logo {
   width: 4vw;
   margin-right: 5px;
-  max-width: 85px;
+  max-width: 44px;
 }
 
 /* move the injected content down */
