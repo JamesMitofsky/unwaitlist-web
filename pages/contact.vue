@@ -3,15 +3,12 @@
     <v-flex xs12 sm10 xl7>
       <div class="content-block">
         <h2>Contact</h2>
-        <v-layout wrap>
-          <v-flex xs12 sm6>
+        <div class="contact-wrapper">
             <img
               class="portrait"
-              src="../assets/little-james.jpg"
+              src="../static/corporate_cup_walk.JPG"
               alt="Just a picture of little me boppin' around."
             />
-          </v-flex>
-          <v-flex xs12 sm6>
             <v-card class="card">
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
@@ -23,41 +20,54 @@
                 <a href="mailto:jtedesco@uvm.edu">jtedesco@uvm.edu</a>.
               </v-card-text>
             </v-card>
-          </v-flex>
-        </v-layout>
+        </div>
       </div>
     </v-flex>
   </v-layout>
 </template>
 
 <style>
-
 /* when elements share width, add margin */
-@media screen and (min-width: 600px) {
-  .card{
+@media screen and (min-width: 900px) {
+  .card {
     margin-left: 10px;
   }
 }
 
-/* when elements are stacked, move border highlight to side */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 900px) {
+  /* moves border to side of card when items become stacked */
   .v-card.v-card.v-card {
-  border-left: 3px solid #2C769B;
-  border-top: none;
+    border-left: 3px solid #2c769b;
+    border-top: none;
+    margin: 10px;
+    max-width: 367px;
+  }
+  /* tells page elements to stack */
+  .contact-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
+/* treat all main page items as flex */
+.contact-wrapper {
+  display: flex;
+}
+
+/* give picture radius of cards and set width properties */
 .portrait {
   width: 100%;
-  max-width: 600px;
+  max-width: 367px;
+  border-radius: 4px;
 }
 </style>
 
 <script>
 export default {
-  head () {
+  head() {
     return {
-      title: "Contact",
+      title: 'Contact'
     }
   }
 }
