@@ -24,7 +24,7 @@
       </v-container>
     </v-content>
 
-    <v-footer dark>
+    <v-footer class="footer" dark>
       <span>James Tedesco &copy; 2019</span>
 
       <v-spacer></v-spacer>
@@ -97,6 +97,10 @@
   font-size: 10px;
   color: white;
   text-decoration: none;
+}
+
+.v-footer.footer {
+  background-color: #2C769B;
 }
 </style>
 
