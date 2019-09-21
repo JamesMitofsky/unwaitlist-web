@@ -6,7 +6,7 @@
         <div class="contact-wrapper">
             <img
               class="portrait"
-              src="../static/corporate_cup_walk.JPG"
+              src="../assets/corporate_cup_walk.JPG"
               alt="Just a picture of little me boppin' around."
             />
             <v-card class="card">
