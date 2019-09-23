@@ -26,7 +26,7 @@
   </v-layout>
 </template>
 
-<style>
+<style scoped>
 /* when elements share width, add margin */
 @media screen and (min-width: 900px) {
   .card {
