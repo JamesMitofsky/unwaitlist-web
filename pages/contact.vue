@@ -57,7 +57,7 @@
 
 /* give picture radius of cards and set width properties */
 .portrait {
-  width: 100%;
+  width: 94%;
   max-width: 367px;
   border-radius: 4px;
 }
