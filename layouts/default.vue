@@ -12,12 +12,18 @@
       <v-spacer></v-spacer>
 
       <v-toolbar-items class="my-toolbar-items">
-        <v-btn text to="/">Our Phil</v-btn>
-        <v-btn text to="/register">Register</v-btn>
-        <v-btn text to="/contact">Contact</v-btn>
+        <v-btn text to="/">
+        <img class="nav-svg" src="../static/home.svg" alt="Graphic: Home">
+        Our Phil</v-btn>
+        <v-btn text to="/register">
+        <img class="nav-svg" src="../static/clipboard.svg" alt="Graphic: Sign-up">
+        Register</v-btn>
+        <v-btn text to="/contact">
+        
+        <img class="nav-svg" src="../static/email.svg" alt="Graphic: Contact">
+        Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
-
     <v-content class="my-content">
       <v-container>
         <nuxt />
@@ -33,7 +39,7 @@
   </v-app>
 </template>
 
-<style>
+<style scoped>
 /* NAVBAR STYLES */
 .v-app-bar.nav-bar {
   background-color: #2c769b;
@@ -54,6 +60,11 @@
 
 .my-toolbar-items .v-btn {
   color: #d3e5ee;
+}
+
+.nav-svg {
+  height: 17px;
+  margin-right: 3px;
 }
 
 /* Control logo size */
@@ -81,6 +92,10 @@
     font-size: 3.2vw;
     padding: 0 8px;
   }
+  /* hide unwaitlist.io name when screen too small */
+  .header-text-pronounced, .header-text-muted {
+    display: none;
+  }
 }
 
 /* import smiler font */
@@ -102,6 +117,7 @@
 .v-footer.footer {
   background-color: #2C769B;
 }
+
 </style>
 
 
