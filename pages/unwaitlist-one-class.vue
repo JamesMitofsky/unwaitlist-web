@@ -205,7 +205,7 @@ export default {
 input {
   padding: 0px 3px;
   background-color: white;
-  box-shadow: hsl(204, 27%, 56%) 1px 1px 5px 0px;
+  box-shadow: #aeaa61 1px 1px 5px 0px;
 }
 
 #submit-button {
