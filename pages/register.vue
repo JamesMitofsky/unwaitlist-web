@@ -25,7 +25,7 @@
                       <span class="font-weight-bold">Total:</span>
                       <span>$5</span>
                     </div>
-                    <v-btn to="/unwaitlist-one-class" small class="light-blue darken-3 white--text select-package">Select</v-btn>
+                    <v-btn to="/unwaitlist-one-class" small tile class="amber white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -46,7 +46,7 @@
                       <span class="font-weight-bold">Total:</span>
                       <span>$12</span>
                     </div>
-                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
+                    <v-btn small tile class="amber white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -68,7 +68,7 @@
                       <span class="font-weight-bold">Total:</span>
                       <span>$15</span>
                     </div>
-                    <v-btn small class="light-blue darken-3 white--text select-package">Select</v-btn>
+                    <v-btn small tile class="amber white--text select-package">Select</v-btn>
                   </div>
                 </v-card-text>
               </v-card>
@@ -113,16 +113,10 @@
 }
 
 
-
-div.card-bottom .v-btn.select-package.select-package {
-  background-color: rgb(37, 106, 255);
-}
-
-
 /* adds border movement to cards */
 @media screen and (max-width: 960px) {
   .v-card.v-card.v-card {
-    border-left: 3px solid #2c769b;
+    border-left: 3px solid #FFC107;
     border-top: none;
   }
 }

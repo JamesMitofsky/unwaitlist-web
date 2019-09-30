@@ -36,7 +36,7 @@
   </v-layout>
 </template>
 
-<style>
+<style scoped>
 /* PHIL RELATED STYLES -------------------------------------------------- */
 
 /* philosophy header grouping */

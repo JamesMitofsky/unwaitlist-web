@@ -38,7 +38,7 @@
 @media screen and (max-width: 900px) {
   /* moves border to side of card when items become stacked */
   .v-card.v-card.v-card {
-    border-left: 3px solid #2c769b;
+    border-left: 3px solid #FFC107;
     border-top: none;
     margin: 10px;
     max-width: 367px;

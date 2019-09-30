@@ -118,7 +118,8 @@
 
           <div class="form-subset">
             <v-btn
-              class="light-blue darken-3 white--text"
+              tile
+              class="amber white--text"
               id="submit-button"
               type="submit"
               value="Submit"

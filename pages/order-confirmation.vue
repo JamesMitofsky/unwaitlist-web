@@ -9,6 +9,6 @@
   </v-layout>
 </template>
 
-<style>
+<style scoped>
 </style>
 

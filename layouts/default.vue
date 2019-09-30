@@ -42,24 +42,24 @@
 <style scoped>
 /* NAVBAR STYLES */
 .v-app-bar.nav-bar {
-  background-color: #2c769b;
+  background-color: #016030;
 }
 
 .header-text-pronounced {
-  color: hsla(200, 66%, 94%, 1);
+  color: white;
 }
 
 .header-text-muted {
-  color: hsla(200, 51%, 67%, 1);
+  color: hsl(152, 39%, 72%);
 }
 
 .my-toolbar-title a {
-  color: hsla(200, 66%, 94%, 1);
+  color: white;
   text-decoration: none;
 }
 
 .my-toolbar-items .v-btn {
-  color: #d3e5ee;
+  color: #d3eed9;
 }
 
 .nav-svg {
@@ -115,7 +115,7 @@
 }
 
 .v-footer.footer {
-  background-color: #2C769B;
+  background-color: #016030;
 }
 
 </style>
