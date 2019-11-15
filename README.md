@@ -32,6 +32,13 @@ $ npm run start
 $ npm run generate
 ```
 
+## Todo
+
+* [ ] SPIKE - what do we do with google form data (vs Netlify Forms)
+* [ ] Redo pricing page - add [Buy Me A Coffee](https://jsfiddle.net/13rilliant/q29Lvkyu/)
+* [ ] Prevent Multiple submits (via disabling button after keypress)
+* [ ] Add Call to Action (CTA) on home page
+
 ## Resources
 
 ### Nuxt

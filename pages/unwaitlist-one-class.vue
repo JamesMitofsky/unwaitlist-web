@@ -32,7 +32,7 @@
         name="hidden_iframe"
         id="hidden_iframe"
         style="display:none;"
-        onload="if(submitted)  {window.location='success';}"
+        onload="if(submitted) {window.location='success';}"
       ></iframe>
 
       <v-card class="my-card form-card">
@@ -110,8 +110,8 @@
               placeholder="e.g. 95377"
               name="entry.232057564"
               type="number"
-              pattern="/^-?\d+\.?\d*$/"
-              onKeyPress="if(this.value.length==5) return false;"
+              min="0"
+              max="99999"
               required
             />
           </div>
@@ -191,7 +191,6 @@ export default {
   background-color: rgb(255, 206, 214);
   width: 105px;
   display: block;
-  font-size: 14px;
   position: absolute;
   right: 0;
   top: 0;
@@ -220,7 +219,6 @@ input {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  font-size: 14px;
   line-height: 26px;
   cursor: default;
 }
