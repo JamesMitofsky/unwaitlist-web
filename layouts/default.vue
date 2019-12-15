@@ -73,7 +73,7 @@
   align-items: center;
 }
 .logo {
-  width: 4vw;
+  width: 40px;
   margin-right: 5px;
   max-width: 44px;
 }
@@ -89,7 +89,7 @@
     font-size: 3.3vw;
   }
   .my-toolbar-items .v-btn.v-btn {
-    font-size: 3.2vw;
+    font-size: 12px;
     padding: 0 8px;
   }
   /* hide unwaitlist.io name when screen too small */
@@ -132,7 +132,7 @@ export default {
         {
           name: 'description',
           content:
-            'A service designed to help get University of Vermont students off the course waitlist.'
+            'UVM students, get notified when class is open.'
         },
         {
           name: 'image',
@@ -143,7 +143,7 @@ export default {
         {
           itemprop: 'description',
           content:
-            'A service designed to help get University of Vermont students off the course waitlist.'
+            'UVM students, get notified when class is open.'
         },
         {
           itemprop: 'image',
@@ -155,7 +155,7 @@ export default {
         {
           name: 'twitter:description',
           content:
-            'A service designed to help get University of Vermont students off the course waitlist.'
+            'UVM students, get notified when class is open.'
         },
         {
           name: 'twitter:image:src',
@@ -166,7 +166,7 @@ export default {
         {
           name: 'og:description',
           content:
-            'A service designed to help get University of Vermont students off the course waitlist.'
+            'UVM students, get notified when class is open.'
         },
         { name: 'og:url', content: 'https://unwaitlist.io/' },
         { name: 'og:site_name', content: 'unwaitlist' },

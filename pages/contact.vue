@@ -2,7 +2,7 @@
   <v-layout justify-center align-center wrap>
     <v-flex xs12 sm10 xl7>
       <div class="content-block">
-        <h2>Contact</h2>
+        <h2>Wutz Gud</h2>
         <div class="contact-wrapper">
             <img
               class="portrait"
@@ -13,7 +13,7 @@
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
                 I spend my free time eating fried ice cream, juggling, and making City Market trips just for the spectacle.
-                This project began as a way to compensate for my own laziness and I hope the spirit of that can live on through others.
+                Rather than give up procrastinating, I just leaned into knowing I'd realize too late which classes I wanted.
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me at

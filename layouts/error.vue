@@ -11,7 +11,7 @@
 
     <div>Yikes, that was embarassing.</div>
     <br>
-    <div>If we can help out, bop us on our <nuxt-link to="/contact">Contact</nuxt-link> page.</div>
+    <div>If you bop me on <a href="https://twitter.com/">Twitter</a>, maybe I can help out.</div>
 
     </div>
     

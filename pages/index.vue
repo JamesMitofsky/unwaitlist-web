@@ -12,11 +12,15 @@
           <span
             class="font-italic"
           >unwaitlist</span> can help.
-          <span>If you're trying to enroll in a class which is full, we got you fam.</span>
         </p>
 
         <v-card>
-          <v-card-title>How does this help you?</v-card-title>
+          <v-card-title>TL;DR</v-card-title>
+          <v-card-text class="text--primary">UVM students, get notified when class is open.</v-card-text>
+        </v-card>
+
+        <v-card>
+          <v-card-title>What's the Gist?</v-card-title>
           <v-card-text class="text--primary">
             <p>
               UVM's course registration system allows students to sign up at their leisure, but if a class is booked, you can request to be placed on the waitlist. Unfortunately,
@@ -45,6 +49,20 @@
 }
 #phil-header-container p {
   font-size: 12px;
+}
+
+.free-service {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.free-service .v-card-title .img {
+  display: flex;
+}
+
+.v-card {
+  margin: 10px;
 }
 </style>
 
