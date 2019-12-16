@@ -29,77 +29,6 @@
               </v-card-text>
             </v-card>
         </v-layout>
-              <!-- <v-card class="my-card">
-                <v-card-title class="my-card-title">One n' done ✅</v-card-title>
-
-                <v-card-text class="text--primary my-card-text">
-                  <div class="subtitle-1">
-                    Check one class every hour
-                    for
-                    <span class="font-weight-bold">$5</span>
-                    <span class="text--secondary">per class in a semester</span>
-                  </div>
-                  <div class="card-bottom">
-                    <div class="total-cost">
-                      <span class="font-weight-bold">Total:</span>
-                      <span>$5</span>
-                    </div>
-                    <v-btn to="/unwaitlist-one-class" small tile class="amber white--text select-package">Select</v-btn>
-                  </div>
-                </v-card-text>
-              </v-card>
-            </v-flex>
-
-            <v-flex class="my-flex" xs12 md6 lg4>
-              <v-card class="my-card">
-                <v-card-title class="my-card-title">Three's for bees 🐝</v-card-title>
-
-                <v-card-text class="text--primary my-card-text">
-                  <div class="subtitle-1">
-                    Check three classes every hour
-                     for
-                    <span class="font-weight-bold">$4</span>
-                    <span class="text--secondary">per class in a semester</span>
-                  </div>
-                  <div class="card-bottom">
-                    <div class="total-cost">
-                      <span class="font-weight-bold">Total:</span>
-                      <span>$12</span>
-                    </div>
-                    <v-btn small tile class="amber white--text select-package">Select</v-btn>
-                  </div>
-                </v-card-text>
-              </v-card>
-            </v-flex>
-
-            <v-flex class="my-flex" xs12 md6 lg4>
-              <v-card class="my-card">
-                <v-card-title class="my-card-title">Five to jive 💃</v-card-title>
-
-                <v-card-text class="text--primary my-card-text">
-                  <div class="subtitle-1">
-                    Check five classes every hour
-                    for
-                    <span class="font-weight-bold">$3</span>
-                    <span class="text--secondary">per class in a semester</span>
-                  </div>
-                  <div class="card-bottom">
-                    <div class="total-cost">
-                      <span class="font-weight-bold">Total:</span>
-                      <span>$15</span>
-                    </div>
-                    <v-btn small tile class="amber white--text select-package">Select</v-btn>
-                  </div>
-                </v-card-text>
-              </v-card> -->
-          
-
-        <!-- <div class="title">
-          ❗ For an additional $2 per package, you can upgrade to checks
-          <span
-            class="font-italic"
-          >every minute</span>.
-        </div> -->
       </div>
     </v-flex>
   </v-layout>
@@ -126,12 +55,6 @@
   display: flex;
   justify-content: flex-end;
 }
-
-/* .card-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 
 /* adds border movement to cards */
