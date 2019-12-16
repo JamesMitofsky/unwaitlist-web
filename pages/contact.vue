@@ -16,8 +16,8 @@
                 Rather than give up procrastinating, I just leaned into knowing I'd realize too late which classes I wanted.
               </v-card-text>
               <v-card-text class="text--primary">
-                Feel free to bop me at
-                <a href="mailto:jtedesco@uvm.edu">jtedesco@uvm.edu</a>.
+                Feel free to bop me on
+                <a href="https://twitter.com/1JimmyTheTulip">Twitter</a>.
               </v-card-text>
             </v-card>
         </div>

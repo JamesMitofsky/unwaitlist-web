@@ -11,7 +11,7 @@
 
     <div>Yikes, that was embarassing.</div>
     <br>
-    <div>If you bop me on <a target="_blank" href="https://twitter.com/">Twitter</a>, maybe I can help out.</div>
+    <div>If you bop me on <a target="_blank" href="https://twitter.com/1JimmyTheTulip">Twitter</a>, maybe I can help out.</div>
     </div>
     
   </v-app>
