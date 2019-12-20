@@ -2,7 +2,7 @@
   <v-layout justify-center align-center wrap>
     <v-flex xs12 sm10 xl7>
       <div class="content-block">
-        <h2>Wutz Gud</h2>
+        <h2>No waitlist for dms</h2>
         <div class="contact-wrapper">
             <img
               class="portrait"

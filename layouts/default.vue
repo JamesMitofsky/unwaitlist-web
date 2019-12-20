@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar class="nav-bar" app>
+    <v-app-bar class="nav-bar">
       <v-toolbar-title class="my-toolbar-title">
         <nuxt-link class="unwaitlist-logo-container smiler-font" to="/">
           <img class="logo" src="../static/icon.png" alt="Logo" />
@@ -45,6 +45,10 @@
   background-color: #016030;
 }
 
+.v-toolbar__content.v-toolbar__content.v-toolbar__content {
+  padding: 0;
+}
+
 .header-text-pronounced {
   color: white;
 }
@@ -64,7 +68,7 @@
 
 .nav-svg {
   height: 17px;
-  margin-right: 3px;
+  margin: 0 6px;
 }
 
 /* Control logo size */
@@ -95,6 +99,12 @@
   /* hide unwaitlist.io name when screen too small */
   .header-text-pronounced, .header-text-muted {
     display: none;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .logo {
+    width: 5vw;
   }
 }
 

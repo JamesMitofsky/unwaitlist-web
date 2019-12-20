@@ -58,7 +58,7 @@
 
 
 /* adds border movement to cards */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1263px) {
   .v-card.v-card.v-card {
     border-left: 3px solid #FFC107;
     border-top: none;

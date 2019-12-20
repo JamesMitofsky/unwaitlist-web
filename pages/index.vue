@@ -41,7 +41,11 @@
 </template>
 
 <style scoped>
-/* PHIL RELATED STYLES -------------------------------------------------- */
+
+.v-card.v-card.v-card {
+  border-left: 3px solid #FFC107;
+  border-top: none;
+}
 
 /* philosophy header grouping */
 #phil-header-container {
@@ -62,7 +66,7 @@
 }
 
 .v-card {
-  margin: 10px;
+  margin: 10px 0;
 }
 </style>
 
