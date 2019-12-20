@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar class="nav-bar">
+    <v-app-bar class="nav-bar" app>
       <v-toolbar-title class="my-toolbar-title">
         <nuxt-link class="unwaitlist-logo-container smiler-font" to="/">
           <img class="logo" src="../static/icon.png" alt="Logo" />
