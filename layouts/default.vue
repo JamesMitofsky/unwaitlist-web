@@ -142,7 +142,7 @@ export default {
         {
           name: 'description',
           content:
-            'UVM students, get notified when class is open.'
+            'UVM students, get notified when your class has availability.'
         },
         {
           name: 'image',
@@ -153,7 +153,7 @@ export default {
         {
           itemprop: 'description',
           content:
-            'UVM students, get notified when class is open.'
+            'UVM students, get notified when your class has availability.'
         },
         {
           itemprop: 'image',
@@ -165,7 +165,7 @@ export default {
         {
           name: 'twitter:description',
           content:
-            'UVM students, get notified when class is open.'
+            'UVM students, get notified when your class has availability.'
         },
         {
           name: 'twitter:image:src',
@@ -176,7 +176,7 @@ export default {
         {
           name: 'og:description',
           content:
-            'UVM students, get notified when class is open.'
+            'UVM students, get notified when your class has availability.'
         },
         { name: 'og:url', content: 'https://unwaitlist.io/' },
         { name: 'og:site_name', content: 'unwaitlist' },

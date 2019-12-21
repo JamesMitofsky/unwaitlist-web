@@ -14,7 +14,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'A service designed to help get University of Vermont students off the course waitlist.'
+        content: 'UVM students, get notified when your class has availability.'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
