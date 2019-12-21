@@ -3,7 +3,7 @@
     <v-flex xs12 sm10 xl7>
       <!--Section: Join the Fam-->
       <div id="join-the-fam" class="content-block">
-        <h2>Stop Checking Course</h2>
+        <h2>Cancel Checking Your Course</h2>
         <br />
         <v-layout justify-center wrap xs12 md6 lg4>
           <iframe
