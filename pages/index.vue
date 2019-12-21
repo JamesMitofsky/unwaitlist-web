@@ -74,7 +74,7 @@
 export default {
   head() {
     return {
-      title: ''
+      title: 'Home'
     }
   }
 }
