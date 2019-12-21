@@ -14,7 +14,7 @@
               <v-card-text class="text--primary my-card-text">
                 <p class="text--secondary">Have the system check course availability every hour.</p>
                 <div class="btn-wrapper">
-                  <v-btn to="/Unwaitlist-A-Class" raised color="#016030" class="white--text">Start Checking</v-btn>
+                  <v-btn to="/Unwaitlist-Request" raised color="#016030" class="white--text">Start Checking</v-btn>
                 </div>
               </v-card-text>
             </v-card>
@@ -24,7 +24,7 @@
               <v-card-text class="text--primary my-card-text">
                 <p class="text--secondary">If you want to cancel the an unwaitlist request, just bop over here.</p>
                 <div class="btn-wrapper">
-                  <v-btn to="/unknown" outlined color="#016030">Stop Checking</v-btn>
+                  <v-btn to="/Unwaitlist-Cancelation" outlined color="#016030">Stop Checking</v-btn>
                 </div>
               </v-card-text>
             </v-card>
