@@ -18,7 +18,7 @@
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me on
-                <a href="https://twitter.com/1JimmyTheTulip">Twitter</a>.
+                <a target="_blank" href="https://twitter.com/1JimmyTheTulip">Twitter</a>.
               </v-card-text>
             </v-card>
         </div>
