@@ -1,7 +1,7 @@
 {
   "name": "unwaitlist",
   "version": "1.0.0",
-  "description": "A service designed to help get University of Vermont students off the course waitlist.",
+  "description": "UVM students, get notified when your class has availability.",
   "author": "JK",
   "private": true,
   "scripts": {
