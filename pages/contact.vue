@@ -13,7 +13,8 @@
               <v-card-text class="text--primary">
                 Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
                 I spend my free time eating fried ice cream, juggling, and making City Market trips just for the spectacle.
-                Rather than give up procrastinating, I just leaned into knowing I'd realize too late which classes I wanted.
+                This project was born from an audacious degree of procrastination, but given its dependence on hope,
+                I devote this to Obama the Redeemer.
               </v-card-text>
               <v-card-text class="text--primary">
                 Feel free to bop me on

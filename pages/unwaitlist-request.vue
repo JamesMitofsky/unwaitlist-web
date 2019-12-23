@@ -4,7 +4,9 @@
       <!--Section: Join the Fam-->
       <div id="join-the-fam" class="content-block">
         <h2>Start Checking Your Course</h2>
-        <br />
+        <p>
+          If you're looking to puruse UVM's course selection, check out the <a href="https://www.uvm.edu/academics/courses/" target="_blank">Course Directory</a>
+        </p>
         <v-layout justify-center wrap xs12 md6 lg4>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfwEiIB7jQnAqv9RcDmuLHoNMPsBiAHxI5b0sBW7uwmDL5p8g/viewform?embedded=true"
