@@ -85,6 +85,7 @@
 /* move the injected content down */
 .my-content {
   margin-top: 15px;
+  background-color: white;
 }
 
 /* sets navbar text as dynamic when screen is small*/

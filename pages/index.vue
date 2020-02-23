@@ -4,7 +4,7 @@
       <div id="philosophy" class="content-block">
         <!--Section: Our Philosophy-->
         <div id="phil-header-container">
-          <h2>Philosophy: No More Waiting*</h2>
+          <h1 class="fun-headers">Philosophy: No More Waiting*</h1>
           <p class="text-right text--secondary">*Well, still, actually, probably a little</p>
         </div>
         <p>

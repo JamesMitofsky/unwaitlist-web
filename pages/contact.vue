@@ -2,7 +2,7 @@
   <v-layout justify-center align-center wrap>
     <v-flex xs12 sm10 xl7>
       <div class="content-block">
-        <h2>No waitlist for these dms</h2>
+        <h1 class="fun-headers">No waitlist for these dms</h1>
         <div class="contact-wrapper">
             <img
               class="portrait"
