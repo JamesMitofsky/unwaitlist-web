@@ -175,13 +175,14 @@ export default {
         // Open Graph general (Facebook, Pintrest, & Google)
         { name: 'og:title', content: 'unwaitlist' },
         {
-          name: 'og:description',
+          name: 'og:description',  property: 'og:description',
           content:
             'UVM students, get notified when your class has availability.'
         },
-        { name: 'og:url', content: 'https://unwaitlist.io/' },
-        { name: 'og:site_name', content: 'unwaitlist' },
-        { name: 'og:type', content: 'product' }
+        { name: 'og:image', property: 'og:image', content:'https://unwaitlist.io/unwaitlist-preview.png' },
+        { name: 'og:url', property: 'og:url', content: 'https://unwaitlist.io/' },
+        { name: 'og:site_name', property: 'og:site_name', content: 'unwaitlist' },
+        { name: 'og:type',  property: 'og:type', content: 'product' }
       ]
     }
   }
