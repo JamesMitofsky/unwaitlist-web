@@ -173,7 +173,7 @@ export default {
           content: 'https://unwaitlist.io/unwaitlist-preview.png'
         },
         // Open Graph general (Facebook, Pintrest, & Google)
-        { name: 'og:title', content: 'unwaitlist' },
+        { name: 'og:title', property: 'og:title', content: 'unwaitlist' },
         {
           name: 'og:description',  property: 'og:description',
           content:
