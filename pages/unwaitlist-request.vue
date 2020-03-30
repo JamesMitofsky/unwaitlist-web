@@ -3,7 +3,7 @@
     <v-flex xs12 sm10 xl7>
       <!--Section: Join the Fam-->
       <div id="join-the-fam" class="content-block">
-        <h2>Start Checking Your Course</h2>
+        <h2>Fall 2020 Course Status Request</h2>
         <p>
           If you're looking to puruse UVM's course selection, check out the <a href="https://www.uvm.edu/academics/courses/" target="_blank">Course Directory</a>
         </p>

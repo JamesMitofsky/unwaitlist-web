@@ -12,7 +12,7 @@
             <v-card class="my-card">
               <v-card-title class="my-card-title">✅ Unwaitlist Your Course</v-card-title>
               <v-card-text class="text--primary my-card-text">
-                <p class="text--secondary">Have the system check course availability every hour.</p>
+                <p class="text--secondary">Fall of 2020 courses: have the system check availability every hour.</p>
                 <div class="btn-wrapper">
                   <v-btn to="/Unwaitlist-Request" raised color="#016030" class="white--text">Start Checking</v-btn>
                 </div>

@@ -34,7 +34,7 @@
       <span>James Tedesco &copy; 2019</span>
 
       <v-spacer></v-spacer>
-      <nuxt-link to="/contact" class="made-with-love">Made with ❤️ in BTV</nuxt-link>
+      <a target="_blank" href="https://github.com/JamesTedesco/unwaitlist.io" class="made-with-love">Made with ❤️ in BTV</a>
     </v-footer>
   </v-app>
 </template>
