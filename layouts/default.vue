@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar class="nav-bar" app>
+    <v-app-bar color="#016030" app>
       <v-toolbar-title class="my-toolbar-title">
         <nuxt-link class="unwaitlist-logo-container smiler-font" to="/">
           <img class="logo" src="../static/icon.png" alt="Logo" />
@@ -41,9 +41,6 @@
 
 <style scoped>
 /* NAVBAR STYLES */
-.v-app-bar.nav-bar {
-  background-color: #016030;
-}
 
 .v-toolbar__content.v-toolbar__content.v-toolbar__content {
   padding: 0;
