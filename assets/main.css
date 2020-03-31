@@ -1,31 +1,57 @@
 /* Global styles here */
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 h1 {
-  font-size: 35px;
+    font-size: 40px;
+}
+
+.v-card .my-card-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.indent-paragraph-children p {
+    text-indent: 35px;
+}
+
+p.no-indent {
+    text-indent: 0;
 }
 
 .v-card.v-card.v-card {
-  border-top: 3px solid #FFC107;
+    border-top: 3px solid #FFC107;
 }
 
+
 /* page transitions */
+
+
 /* set animation speed */
+
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.2s;
+    transition: all 0.2s;
 }
+
+
 /* set animations */
+
 .page-enter,
 .page-leave-to {
-  opacity: 0;
-  transform: translate(100%);
+    opacity: 0;
+    transform: translate(100%);
 }
 
 .fun-headers {
-  color: transparent;
-  background: url(./backgroundpic.svg) center/400% no-repeat;
-  background-clip: text;
+    color: transparent;
+    background: url(./backgroundpic.svg) center/400% no-repeat;
+    background-clip: text;
 }

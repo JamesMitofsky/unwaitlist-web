@@ -15,12 +15,14 @@
         </p>
 
         <v-card>
-          <v-card-title>TL;DR</v-card-title>
-          <v-card-text class="text--primary">UVM students, get notified when class is open.</v-card-text>
+          <v-card-title class="my-card-title">TL;DR</v-card-title>
+          <v-card-text class="text--primary">
+            <p>UVM students, get notified when class is open.</p>
+          </v-card-text>
         </v-card>
 
-        <v-card>
-          <v-card-title>What's the Gist?</v-card-title>
+        <v-card class="indent-paragraph-children">
+          <v-card-title class="my-card-title">How's it Work?</v-card-title>
           <v-card-text class="text--primary">
             <p>
               UVM's course registration system allows students to sign up at their leisure, but if a class is booked, you can request to be placed on the waitlist. Unfortunately,
@@ -33,6 +35,10 @@
               Solving for this,
               <span class="font-italic">unwaitlist</span> checks the enrollment status of a given class at an assignable interval (i.e. every minute, hour, or 525,600 minutes), evaluates if there is an opening, and then if apppropriate, sends an email and calls you right away.
             </p>
+            <p>Every semester, the system polls the latest course information for the fall or spring, but after the add/drop period passes, it stops
+              checking all previously requested classes. Which is all to say that you don't have to worry about getting random notifications for however many classes you once requested after
+              it stops being relevant.
+            </p>
           </v-card-text>
         </v-card>
       </div>
@@ -41,9 +47,8 @@
 </template>
 
 <style scoped>
-
 .v-card.v-card.v-card {
-  border-left: 3px solid #FFC107;
+  border-left: 3px solid #ffc107;
   border-top: none;
 }
 
@@ -68,6 +73,11 @@
 .v-card {
   margin: 10px 0;
 }
+
+
+
+
+
 </style>
 
 <script>

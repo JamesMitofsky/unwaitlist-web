@@ -12,7 +12,7 @@
             <v-card class="my-card">
               <v-card-title class="my-card-title">✅ Unwaitlist Your Course</v-card-title>
               <v-card-text class="text--primary my-card-text">
-                <p class="text--secondary">Fall of 2020 courses: have the system check availability every hour.</p>
+                <p class="text--secondary">Checking <span class="font-italic">Fall 2020</span> course availability every minute.</p>
                 <div class="btn-wrapper">
                   <v-btn to="/Unwaitlist-Request" raised color="#016030" class="white--text">Start Checking</v-btn>
                 </div>
@@ -20,9 +20,9 @@
             </v-card>
 
             <v-card class="my-card">
-              <v-card-title class="my-card-title">❌ Remove Course from Unwaitlist</v-card-title>
+              <v-card-title class="my-card-title">❌ Cancel An Unwaitlist Request</v-card-title>
               <v-card-text class="text--primary my-card-text">
-                <p class="text--secondary">If you want to cancel an unwaitlist request, just bop over here.</p>
+                <p class="text--secondary">If you had unwaitlist begin checking a class but aren't interested anymore, just bop over here to cancel it.</p>
                 <div class="btn-wrapper">
                   <v-btn to="/Unwaitlist-Cancelation" outlined color="#016030">Stop Checking</v-btn>
                 </div>
@@ -43,10 +43,6 @@
   margin: 10px;
   display: flex;
   flex-direction: column;
-}
-
-.my-card .my-card-title {
-  font-weight: bold;
 }
 
 
