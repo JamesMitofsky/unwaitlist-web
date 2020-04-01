@@ -35,9 +35,7 @@
               Solving for this,
               <span class="font-italic">unwaitlist</span> checks the enrollment status of a given class at an assignable interval (i.e. every minute, hour, or 525,600 minutes), evaluates if there's an opening, and then — if apppropriate — sends an email and text right away.
             </p>
-            <p>Every semester, the system polls the latest course information for the fall or spring, but after the add/drop period passes, it stops
-              checking all previously requested classes. Which is all to say that you don't have to worry about getting random notifications for however many classes you once requested after
-              it stops being relevant.
+            <p>You don't even have to worry about cancelling your course requests from unwaitlist after the add/drop period passes since the system automatically discontinues them.
             </p>
           </v-card-text>
         </v-card>
