@@ -5,7 +5,7 @@
       <div id="join-the-fam" class="content-block">
         <h1 class="fun-headers">Join the Fam</h1>
         <p>
-          You're barely treading water and we definitely saw your head bob under. Thank goodness our program is better at
+          You're barely treading water and we definitely saw your head bob under. Thank goodness this program is better at
           unwaitlisting people than Zac Efron is at pretending to be a life guard.
         </p>
         <v-layout justify-center wrap xs12 md6 lg4>
