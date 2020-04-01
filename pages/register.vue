@@ -20,9 +20,9 @@
             </v-card>
 
             <v-card class="my-card">
-              <v-card-title class="my-card-title">❌ Cancel An Unwaitlist Request</v-card-title>
+              <v-card-title class="my-card-title">❌ Cancel A Request</v-card-title>
               <v-card-text class="text--primary my-card-text">
-                <p class="text--secondary">If you had unwaitlist begin checking a class but aren't interested anymore, just bop over here to cancel it.</p>
+                <p class="text--secondary">If unwaitlist is checking a class you're not interested in anymore, bop over here to cancel it.</p>
                 <div class="btn-wrapper">
                   <v-btn to="/Unwaitlist-Cancelation" outlined color="#016030">Stop Checking</v-btn>
                 </div>

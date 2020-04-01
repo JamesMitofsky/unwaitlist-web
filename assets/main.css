@@ -19,6 +19,7 @@ h1 {
 .v-card .my-card-title {
     font-weight: bold;
     font-size: 24px;
+    word-break: break-word;
 }
 
 p {
