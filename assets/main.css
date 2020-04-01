@@ -1,5 +1,13 @@
 /* Global styles here */
 
+
+/* import B612 font */
+
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+/* volkorn */
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -10,12 +18,13 @@ h1 {
 
 .v-card .my-card-title {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
+    font-family: 'Vollkorn', serif;
 }
 
 .indent-paragraph-children p {

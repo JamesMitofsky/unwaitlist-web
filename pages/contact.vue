@@ -7,13 +7,13 @@
           <img
             class="portrait"
             src="../assets/corporate_cup_walk.jpg"
-            alt="Just a picture of little me boppin' around."
+            alt="Just me walking the corporate cup with my brothers' dad."
           />
           <v-card class="card indent-paragraph-children">
             <v-card-text class="text--primary">
               <p>
                 Hi there, my name is James Tedesco and I'm a sophomore at the University of Vermont majoring in Political Science.
-                I spend my free time eating fried ice cream, juggling, and making City Market trips just for the spectacle.
+                I spend my free time eating fried ice cream, playing music, and walking to City Market just for the spectacle.
                 This project was born from an audacious degree of procrastination, but given its dependence on hope,
                 I devote this to Obama the Redeemer.
               </p>
@@ -106,7 +106,6 @@
     border-left: 3px solid #ffc107;
     border-top: none;
     margin: 10px;
-    max-width: 367px;
   }
   /* tells page elements to stack */
   .contact-wrapper {
@@ -122,9 +121,9 @@
 
 /* give picture radius of cards and set width properties */
 .portrait {
-  width: 94%;
-  max-width: 367px;
+  width: 72vw;
   border-radius: 4px;
+  object-fit: contain;
 }
 </style>
 

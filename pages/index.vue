@@ -71,7 +71,7 @@
 }
 
 .v-card {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 
