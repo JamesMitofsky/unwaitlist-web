@@ -26,16 +26,24 @@
           <v-card-text class="text--primary">
             <p>
               UVM's course registration system allows students to sign up at their leisure, but if a class is booked, you can request to be placed on the waitlist. Unfortunately,
-              this waitlist might as well be quilled parchment - it has no connection to the registration portal. This means as soon as the class has an opening,
+              this waitlist might as well be quilled parchment — it has no connection to the registration portal. This means as soon as the class has an opening,
               <span
                 class="font-italic"
-              >even if you were first on the waitlist</span>, absolutely anyone can take that spot.
+              >even if you were first on the waitlist</span>, anyone can take that spot.
             </p>
             <p>
               Solving for this,
               <span class="font-italic">unwaitlist</span> checks the enrollment status of a given class at an assignable interval (i.e. every minute, hour, or 525,600 minutes), evaluates if there's an opening, and then — if apppropriate — sends an email and text right away.
             </p>
             <p>You don't even have to worry about cancelling your course requests from unwaitlist after the add/drop period passes since the system automatically discontinues them.
+            </p>
+          </v-card-text>
+        </v-card>
+        <v-card class="indent-paragraph-children">
+          <v-card-title class="my-card-title">New Features?</v-card-title>
+          <v-card-text class="text--primary">
+            <p>I'm frequently rolling out small updates to improve processing and notification, but right now, I'm specifically intersted in determining if requested classes have
+              any cross-listings which could then also be enrolled for checking.
             </p>
           </v-card-text>
         </v-card>
