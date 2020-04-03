@@ -25,7 +25,7 @@ export default {
         ]
     },
     pwa: {
-        meta: {
+        manifest: {
             name: 'My Awesome App',
             lang: 'en',
             background_color: "#4DBA87",
