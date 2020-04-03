@@ -28,7 +28,7 @@ export default {
         manifest: {
             name: 'My Awesome App',
             lang: 'en',
-            background_color: "#FFFFFF",
+            background_color: "#4DBA87",
             theme_color: "#4DBA87"
 
         }
@@ -36,7 +36,7 @@ export default {
     /*
      ** Customize the progress-bar color
      */
-    loading: { color: '#fff' },
+    loading: { color: '#4DBA87' },
     /*
      ** Global CSS
      */
