@@ -16,13 +16,22 @@ export default {
                 name: 'description',
                 content: 'UVM students, get notified when your class has availability.'
             },
-            { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
-            { name: 'theme-color', content: '#008aff' },
-            { name: 'apple-mobile-web-app-title', content: 'proof' }
+            // { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+            // { name: 'theme-color', content: '#008aff' },
+            // { name: 'apple-mobile-web-app-title', content: 'proof' }
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ]
+    },
+    pwa: {
+        manifest: {
+            name: 'My Awesome App',
+            lang: 'en',
+            background_color: "#FFFFFF",
+            theme_color: "#4DBA87"
+
+        }
     },
     /*
      ** Customize the progress-bar color
