@@ -16,18 +16,11 @@ export default {
                 name: 'description',
                 content: 'UVM students, get notified when your class has availability.'
             },
+            { name: 'apple-mobile-web-app-capable', content: 'yes' },
             { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
             { theme_color: '#317EFB' }
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-    },
-    // trying to override pwa options
-    pwa: {
-        manifest: {
-            theme_color: '#317EFB',
-            name: 'testing, thanks'
-
-        }
     },
     /*
      ** Customize the progress-bar color
