@@ -29,8 +29,8 @@ export default {
             name: 'My Awesome App',
             lang: 'en',
             background_color: "#4DBA87",
-            theme_color: "#4DBA87"
-
+            theme_color: "#4DBA87",
+            appleStatusBarStyle: 'black-translucent'
         }
     },
     /*
