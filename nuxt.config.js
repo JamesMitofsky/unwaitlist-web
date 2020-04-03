@@ -21,6 +21,14 @@ export default {
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     },
+    // trying to override pwa options
+    pwa: {
+        manifest: {
+            theme_color: '#317EFB',
+            name: 'testing, thanks'
+
+        }
+    },
     /*
      ** Customize the progress-bar color
      */
