@@ -134,6 +134,8 @@ export default {
   head() {
     return {
       meta: [
+        
+        { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { charset: 'UTF-8' },
         // General SEO
