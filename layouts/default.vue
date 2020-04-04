@@ -1,7 +1,5 @@
 <template>
   <v-app>
-    
-    <div id="header-expansion-for-Apple-notch"></div>
     <v-app-bar color="#016030" app>
       <v-toolbar-title class="my-toolbar-title">
         <nuxt-link class="unwaitlist-logo-container smiler-font" to="/">
@@ -26,7 +24,7 @@
         Contact</v-btn>
       </v-toolbar-items>
     </v-app-bar>
-    <v-content class="my-content shrink">
+    <v-content class="my-content">
       <v-container>
         <nuxt />
       </v-container>
@@ -44,12 +42,12 @@
 <style scoped>
 /* NAVBAR STYLES */
 
-/* @media only screen and (orientation: landscape) {
-    .shrink {
-        width: 1%;
-        margin: 0 auto;
+/* Adjusting nav items to deal with Apple notch */
+@media only screen and (orientation: landscape) {
+    .my-toolbar-title, .my-toolbar-items  {
+      margin: 0 15px;
     }
-} */
+}
 
 .v-toolbar__content.v-toolbar__content.v-toolbar__content {
   padding: 0;
