@@ -44,9 +44,12 @@
 
 /* Adjusting nav items to deal with Apple notch */
 @media only screen and (orientation: landscape) {
-    .my-toolbar-title, .my-toolbar-items  {
-      margin: 0 15px;
+    .my-toolbar-title {
+      margin-left: 15px;
     }
+    .my-toolbar-items {
+      margin-right: 10px;
+    } 
 }
 
 .v-toolbar__content.v-toolbar__content.v-toolbar__content {
