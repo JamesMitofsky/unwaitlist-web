@@ -44,11 +44,12 @@
 <style scoped>
 /* NAVBAR STYLES */
 
-@media only screen and (orientation: landscape) {
+/* @media only screen and (orientation: landscape) {
     .shrink {
-        width: 90%;
+        width: 1%;
+        margin: 0 auto;
     }
-}
+} */
 
 .v-toolbar__content.v-toolbar__content.v-toolbar__content {
   padding: 0;
