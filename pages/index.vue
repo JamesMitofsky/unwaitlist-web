@@ -40,6 +40,14 @@
           </v-card-text>
         </v-card>
         <v-card class="indent-paragraph-children">
+          <v-card-title class="my-card-title">This is an App!</v-card-title>
+          <v-card-text class="text--primary">
+            <p>If you add this website to your home screen, it runs like an app. This improves load times and user experience while taking up very little
+              space (but you'll be fine either way).
+            </p>
+          </v-card-text>
+        </v-card>
+        <v-card class="indent-paragraph-children">
           <v-card-title class="my-card-title">New Features?</v-card-title>
           <v-card-text class="text--primary">
             <p>I'm frequently rolling out small updates to improve processing and notification, but right now, I'm specifically intersted in determining if requested classes have
