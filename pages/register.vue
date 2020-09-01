@@ -9,7 +9,14 @@
           unwaitlisting people than Zac Efron is at pretending to be a life guard.
         </p>
         <v-layout justify-center wrap xs12 md6 lg4>
-            <v-card class="my-card">
+          <v-card class="my-card">
+              <v-card-title class="my-card-title">Sorry, but we're not taking requests right now.</v-card-title>
+              <v-card-text class="text--primary my-card-text">
+                <p class="text--secondary">The infastructure which makes checking classes possible has changed, so we're going to be moving to a new model shortly.</p>
+                <p>Here's what to look forward to: simpler site architecture (right now it's kinda bulky for phones with less than perfect internet), more reliable performance for minute-to-minute checks, and reliance on technologies that are less likely to change.</p>
+              </v-card-text>
+          </v-card>
+          <!-- <v-card class="my-card">
               <v-card-title class="my-card-title">✅ Unwaitlist Your Course</v-card-title>
               <v-card-text class="text--primary my-card-text">
                 <p class="text--secondary">Checking <span class="font-italic">Fall 2020</span> course availability every minute.</p>
@@ -27,7 +34,7 @@
                   <v-btn to="/Unwaitlist-Cancelation" outlined color="#016030">Stop Checking</v-btn>
                 </div>
               </v-card-text>
-            </v-card>
+          </v-card> -->
         </v-layout>
       </div>
     </v-flex>
@@ -45,18 +52,16 @@
   flex-direction: column;
 }
 
-
 /* add/remove btn styles*/
 .btn-wrapper {
   display: flex;
   justify-content: flex-end;
 }
 
-
 /* adds border movement to cards */
 @media screen and (max-width: 1263px) {
   .v-card.v-card.v-card {
-    border-left: 3px solid #FFC107;
+    border-left: 3px solid #ffc107;
     border-top: none;
   }
 }
