@@ -47,14 +47,6 @@
             </p>
           </v-card-text>
         </v-card>
-        <v-card class="indent-paragraph-children">
-          <v-card-title class="my-card-title">New Features?</v-card-title>
-          <v-card-text class="text--primary">
-            <p>I'm frequently rolling out small updates to improve processing and notification, but right now, I'm specifically intersted in determining if requested classes have
-              any cross-listings which could then also be enrolled for checking.
-            </p>
-          </v-card-text>
-        </v-card>
       </div>
     </v-flex>
   </v-layout>
