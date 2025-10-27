@@ -12,7 +12,7 @@
           <v-card class="card indent-paragraph-children">
             <v-card-text class="text--primary">
               <p>
-                Hi there, my name is James Mitofsky and I'm a sophomore at the University of Vermont majoring in Political Science.
+                Hi there, my name is James  and I'm a sophomore at the University of Vermont majoring in Political Science.
                 I spend my free time eating fried ice cream, playing music, and walking to City Market just for the spectacle.
                 This project was born from an audacious degree of procrastination, but given its dependence on hope,
                 I devote this to Obama the Redeemer.
@@ -23,7 +23,7 @@
                 Feel free to bop me on
                 <a
                   target="_blank"
-                  href="https://twitter.com/JamesMitofsky802"
+                  href="https://twitter.com/James802"
                 >Twitter</a>.
               </p>
             </v-card-text>
@@ -76,7 +76,7 @@
               <a
                 class="bmc-button"
                 target="_blank"
-                href="https://www.buymeacoffee.com/JamesMitofsky"
+                href="https://www.buymeacoffee.com/James"
               >
                 <img
                   src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"

@@ -31,10 +31,10 @@
     </v-content>
 
     <v-footer class="footer" dark>
-      <span>James Mitofsky &copy; 2019</span>
+      <span>James  &copy; 2019</span>
 
       <v-spacer></v-spacer>
-      <a target="_blank" href="https://github.com/JamesMitofsky/unwaitlist.io" class="made-with-love">Made with ❤️ in BTV</a>
+      <a target="_blank" href="https://github.com/James/unwaitlist.io" class="made-with-love">Made with ❤️ in BTV</a>
     </v-footer>
   </v-app>
 </template>
